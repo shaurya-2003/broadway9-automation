@@ -5,12 +5,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Broadway9-Automation - UI/UX</title>
-  <link rel="icon" href="assets/img/logo-icon.png">
-
+  <link rel="icon" href="assets/img/favicon.png">
   <!-- CSS only -->
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
   <!-- Font Awesome 6 -->
   <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+  <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+  <!-- swiper -->
+  <link rel="stylesheet" href="assets/css/swiper.css">
   <!-- style -->
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- responsive -->
@@ -37,18 +39,18 @@
       </div>
     </div> -->
   <!-- preloader end -->
-  <header class="three" style="background-image: url(assets/img/header.jpg)">
+  <header>
     <div class="container">
       <div class="nav">
         <div class="d-flex align-items-center">
           <div class="logo">
             <a href="index.html">
-              <img alt="logo" src="assets/img/logo.png">
+              <img alt="logo" src="assets/img/broadway9.png" style="width: 120px;">
             </a>
           </div>
           <ul class="menu">
             <li>
-              <a href="#">Home</a>
+              <a href="index.html">Home</a>
               <ul class="sub-menu">
                 <!-- <li><a href="index.html">homepage 1</a></li>
                 <li><a href="index-2.html">homepage 2</a></li>
@@ -76,7 +78,7 @@
               </ul>
             </li>
             <li>
-              <a href="#">Who We Serve</a>
+              <a href="">Who We Serve</a>
               <ul class="sub-menu">
                 <li><a href="uiux.html">UI/UX</a></li>
                 <li><a href="software-development.html">Software Development</a></li>
@@ -89,7 +91,7 @@
             </li>
           </ul>
         </div>
-        <div>
+        <!-- <div>
           <form id="content">
             <input type="text" name="input" class="input" id="search-input">
             <button type="reset" class="search" id="search-btn"></button>
@@ -98,13 +100,13 @@
         </div>
         <div class="bar-menu">
           <i class="fa-solid fa-bars"></i>
-        </div>
+        </div> -->
       </div>
     </div>
     <div class="mobile-nav hmburger-menu" id="mobile-nav" style="display:block;">
       <div class="res-log">
         <a href="index.html">
-          <img src="assets/img/logo.png" alt="Responsive Logo">
+          <img src="assets/img/broadway9.png" alt="Responsive Logo">
         </a>
       </div>
       <ul>
@@ -158,175 +160,352 @@
       <a href="JavaScript:void(0)" id="res-cross"></a>
     </div>
   </header>
+  <section class="splash-area-section">
+    <div class="container">
+      <div class="splash-area">
+        <h2 style="font-size: 80px; font-weight: 600; line-height: 80px;text-align: center;">UI/UX</h2>
+      </div>
+    </div>
+  </section>
+
   <section class="gap no-top">
     <div class="container">
-      <div class="splash-area blog">
-        <h2>UI/UX</h2>
-        <!-- <a href="#">Blog Grid</a> -->
+      <div class="row align-items-center">
+        <div class="col-lg-6 ">
+          <div class="heading">
+            <h3 style="margin-bottom: 35px;">Transforming Digital Experiences Through Expert
+              UI/UX Design</h3>
+          </div>
+          <div class="marketing two">
+            <p class="pt-3">Welcome to our UI/UX Design Services page, we believe that exceptional user experiences are
+              the cornerstone of successful digital products. Our team of skilled designers combines creativity,
+              technical expertise, and user-centric principles to craft intuitive interfaces that delight users and
+              drive engagement.
+            </p>
+          </div>
+        </div>
+        <div class="offset-xl-1 col-lg-5">
+          <div class="graph">
+            <img alt="img" src="assets/img/ui-ux-hero.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <div class="brands-we-work gap">
+    <div class="container">
+      <h2 style="padding-bottom: 60px;">Strategic Partners</h2>
+      <div class="swiper-container brandswiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/image-1.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/image-2.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/image-3.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/image-4.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/image-5.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/image-6.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/image-7.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="we-deliver-results gap" style="background-color: #f0f5ff;">
+    <div class="container">
+      <div class="heading two">
+        <h2>Why Choose Us</h2>
       </div>
       <div class="row">
-        <div class="col-xl-4 col-md-6">
-          <div class="latest-blog-post hoverstyle">
-            <figure>
-              <img alt="img" class="w-100" src="https://via.placeholder.com/446x324">
-            </figure>
-            <a href="#"><i class="fa-regular fa-clock"></i><span>August 10, 2023</span></a>
-            <a href="#">
-              <h4>Transforming Digital Experiences Through Expert
-                UI/UX Design</h4>
-            </a>
-            <span>Welcome to our UI/UX Design Services page, we believe that exceptional user experiences are the
-              cornerstone of successful digital products. Our team of skilled designers combines creativity, technical
-              expertise, and user-centric principles to craft intuitive interfaces that delight users and drive
-              engagement.
-            </span>
+        <div class="col-xl-4 col-lg-6">
+          <div class="makes-us-different-text" style="background-color: #fff; border-radius: 10px;">
+            <i>
+              <img src="./assets/img/icon11.png" alt="image" width="30%">
+            </i>
+            <h4>Expertise</h4>
+            <p>
+              Our team comprises seasoned UI/UX designers with years of experience in the field. We stay abreast of the
+              latest design trends and technologies to ensure your digital products are always ahead of the curve.
+            </p>
           </div>
         </div>
-        <div class="col-xl-4 col-md-6">
-          <div class="latest-blog-post hoverstyle">
-            <figure>
-              <img alt="img" class="w-100" src="https://via.placeholder.com/446x324">
-            </figure>
-            <a href="#"><i class="fa-regular fa-clock"></i><span>August 10, 2023</span></a>
-            <a href="#">
-              <h4>Expertise</h4>
-            </a>
-            <span>Our team comprises seasoned UI/UX designers with years of experience in the field. We stay abreast of
-              the latest design trends and technologies to ensure your digital products are always ahead of the
-              curve.</span>
-          </div>
-        </div>
-        <div class="col-xl-4 col-md-6">
-          <div class="latest-blog-post hoverstyle">
-            <figure>
-              <img alt="img" class="w-100" src="https://via.placeholder.com/446x324">
-            </figure>
-            <a href="#"><i class="fa-regular fa-clock"></i><span>August 10, 2023</span></a>
-            <a href="#">
-              <h4>User-Centric Approach</h4>
-            </a>
-            <span>We prioritize understanding your target audience's needs, preferences, and pain points. By conducting
+        <div class="col-xl-4 col-lg-6">
+          <div class="makes-us-different-text" style="background-color: #fff; border-radius: 10px;">
+            <i>
+              <img src="./assets/img/customer-1.png" alt="" width="30%">
+            </i>
+            <h4>User-Centric Approach</h4>
+            <p>
+              We prioritize understanding your target audience's needs, preferences, and pain points. By conducting
               thorough research and user testing, we create designs that resonate with your users and enhance their
-              overall experience.</span>
+              overall experience.
+            </p>
           </div>
         </div>
-        <div class="col-xl-4 col-md-6">
-          <div class="latest-blog-post hoverstyle">
-            <figure>
-              <img alt="img" class="w-100" src="https://via.placeholder.com/446x324">
-            </figure>
-            <a href="#"><i class="fa-regular fa-clock"></i><span>August 10, 2023</span></a>
-            <a href="#">
-              <h4>Custom Solutions</h4>
-            </a>
-            <span>No two projects are the same, which is why we offer tailored UI/UX design solutions to meet your
-              specific requirements and goals. Whether you need a complete redesign or enhancements to an existing
-              interface.</span>
-          </div>
-        </div>
-        <div class="col-xl-4 col-md-6">
-          <div class="latest-blog-post hoverstyle">
-            <figure>
-              <img alt="img" class="w-100" src="https://via.placeholder.com/446x324">
-            </figure>
-            <a href="#"><i class="fa-regular fa-clock"></i><span>August 10, 2023</span></a>
-            <a href="#">
-              <h4>Discovery</h4>
-            </a>
-            <span>We start by gaining a deep understanding of your project objectives, target audience, and brand
-              identity through comprehensive discovery sessions.</span>
-          </div>
-        </div>
-        <div class="col-xl-4 col-md-6">
-          <div class="latest-blog-post hoverstyle">
-            <figure>
-              <img alt="img" class="w-100" src="https://via.placeholder.com/446x324">
-            </figure>
-            <a href="#"><i class="fa-regular fa-clock"></i><span>August 10, 2023</span></a>
-            <a href="#">
-              <h4>Design</h4>
-            </a>
-            <span>Our designers translate insights from the discovery phase into visually stunning designs that
-              prioritize usability and aesthetics.</span>
-          </div>
-        </div>
-        <div class="col-xl-4 col-md-6">
-          <div class="latest-blog-post hoverstyle">
-            <figure>
-              <img alt="img" class="w-100" src="https://via.placeholder.com/446x324">
-            </figure>
-            <a href="#"><i class="fa-regular fa-clock"></i><span>August 10, 2023</span></a>
-            <a href="#">
-              <h4>Prototyping</h4>
-            </a>
-            <span>We create interactive prototypes to simulate user interactions and gather feedback early in the design
-              process, ensuring a seamless user experience.</span>
-          </div>
-        </div>
-        <div class="col-xl-4 col-md-6">
-          <div class="latest-blog-post hoverstyle">
-            <figure>
-              <img alt="img" class="w-100" src="https://via.placeholder.com/446x324">
-            </figure>
-            <a href="#"><i class="fa-regular fa-clock"></i><span>August 10, 2023</span></a>
-            <a href="#">
-              <h4>Iterative Refinement</h4>
-            </a>
-            <span>We create interactive prototypes to simulate user interactions and gather feedback early in the design
-              process, ensuring a seamless user experience.</span>
-          </div>
-        </div>
-        <div class="col-xl-4 col-md-6">
-          <div class="latest-blog-post hoverstyle">
-            <figure>
-              <img alt="img" class="w-100" src="https://via.placeholder.com/446x324">
-            </figure>
-            <a href="#"><i class="fa-regular fa-clock"></i><span>August 10, 2023</span></a>
-            <a href="#">
-              <h4>Delivery</h4>
-            </a>
-            <span>Once the design is finalized, we deliver high-fidelity assets and provide support during the
-              implementation phase to ensure a smooth transition from design to development.
-            </span>
+        <div class="col-xl-4 col-lg-6">
+          <div class="makes-us-different-text" style="background-color: #fff; border-radius: 10px;">
+            <i>
+              <img src="./assets/img/solution.png" alt="" width="30%">
+            </i>
+            <h4>Custom Solutions</h4>
+            <p>
+              No two projects are the same, <br> which is why we offer tailored UI/UX design solutions to meet your
+              specific
+              requirements and goals. Whether you need a complete redesign or enhancements to an existing interface.
+            </p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <div class="next-previous-page">
+  <section class="we-deliver-results gap">
     <div class="container">
-      <div class="next-previous">
-        <div class="prev">
-          <a href="#">
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-              y="0px" viewBox="0 0 476.213 476.213" style="enable-background:new 0 0 476.213 476.213;"
-              xml:space="preserve">
-              <polygon points="405.606,167.5 384.394,188.713 418.787,223.106 0,223.106 0,253.106 418.787,253.106 384.394,287.5 
-          405.606,308.713 476.213,238.106 " />
-            </svg>
-            prev page</a>
+      <div class="heading two">
+        <h2>Our Process Flow</h2>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-lg-6">
+          <div class="makes-us-different-text" style="background-color: #fff;">
+            <i>
+              <img src="./assets/img/data.png" alt="image" width="30%">
+            </i>
+            <h4>Discovery</h4>
+            <p>
+              We start by gaining a deep understanding of your project objectives, target audience, and brand identity
+              through comprehensive discovery sessions.
+            </p>
+          </div>
         </div>
-        <div class="next">
-          <a href="#">
-            next page
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-              y="0px" viewBox="0 0 476.213 476.213" style="enable-background:new 0 0 476.213 476.213;"
-              xml:space="preserve">
-              <polygon points="405.606,167.5 384.394,188.713 418.787,223.106 0,223.106 0,253.106 418.787,253.106 384.394,287.5 
-          405.606,308.713 476.213,238.106 " />
-            </svg>
-          </a>
+        <div class="col-xl-4 col-lg-6">
+          <div class="makes-us-different-text" style="background-color: #fff;">
+            <i>
+              <img src="./assets/img/coding.png" alt="image" width="30%">
+            </i>
+            <h4>Design</h4>
+            <p>
+              Our designers translate insights from the discovery phase into visually stunning designs that prioritize
+              usability and aesthetics.
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6">
+          <div class="makes-us-different-text" style="background-color: #fff;">
+            <i>
+              <img src="./assets/img/prototype-2.png" alt="image" width="30%">
+            </i>
+            <h4>Prototyping</h4>
+            <p>
+              We create interactive prototypes to simulate user interactions and gather feedback early in the design
+              process, ensuring a seamless user experience.
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6">
+          <div class="makes-us-different-text" style="background-color: #fff;">
+            <i>
+              <img src="./assets/img/sprint.png" alt="image" width="30%">
+            </i>
+            <h4>Iterative Refinement</h4>
+            <p>
+              We create interactive prototypes to simulate user interactions and gather feedback early in the design
+              process, ensuring a seamless user experience.
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6">
+          <div class="makes-us-different-text" style="background-color: #fff;">
+            <i>
+              <img src="./assets/img/home-1.png" alt="image" width="30%">
+            </i>
+            <h4>Delivery</h4>
+            <p>
+              Once the design is finalized, we deliver high-fidelity assets and provide support during the
+              implementation phase to ensure a smooth transition from design.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="blog-posts gap no-top">
+    <div class="container">
+      <div class="heading-boder two">
+        <h2>What Our Clients Say!</h2>
+      </div>
+      <div class="swiper-partner partnerswiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>Managing the cricket tournament wouldn’t be possible if we had not used Procric8 designed and developed
+                by Broadway9-Automation. I’m very excited to say that all 200+ Players were happy with LIVE SCORE
+                updates on the
+                ground as well as on App during matches. </p>
+              <span>Jiten Oza | Proprietor | Compact Business Machines</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>Broadway9-Automation executes the design of a product exactly the way it is provided, or suggest ways
+                to improve
+                navigation, usability; to make our lives easier. It is a pleasure to work with and I highly recommend
+                the company to those who want a job done the way they envision it. </p>
+              <span>Jay Majithia | Prorpietor | Niramay Briodant</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>One word “Kaizen”. A popular concept of the Japanese “Kaizen” which means continuous self improvement.
+                Can be seen here in Broadway9-Automation ideas, solutions, methodologies, and practices followed by
+                them. I
+                extend my gratitude to broadway9's team for their support. </p>
+              <span>Krishna Majithia | Managing Director | City Group</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>Broadway9-Automation does the exact same thing with technologies. It knows how to gather the customer
+                requirements and carve the imagination in a valuable product. Their customised software helped us in our
+                marketing campaigns to our consumers. </p>
+              <span>Milind Trivedi | Creative Production Head | Grace Communication</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>Broadway9-Automation have blown me away when it
+                comes to application development and deployment,<br> providing unbelievable account management,
+                great agility and serious innovation. </p>
+              <span>Nalin Shah | Director | India Latina PCI</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>Our project was executed elegantly with a high degree of professionalism and technical expertise. We
+                would be happy to work with Broadway9-Automation again and we hope the opportunity presents itself. </p>
+              <span>Arun Kochar | Director | A K Kochar & Associates</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>Broadway9-Automation was able to support us end to end from articulating functional specifications and
+                technical
+                design through application
+                delivery. We value the strong and positive relationship we have built with the Broadway9's team.</p>
+              <span>Navin | Director | Blab</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>Broadway9-Automation blend this great vision they have for creating an extraordinary company by
+                instilling a
+                deep sense of practicality and methodology to deliver applications and mobile apps on time and on
+                budget. </p>
+              <span>Jugal Shah | CEO | Leo9 Studio</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="brands-we-work gap">
+    <div class="container">
+      <h2 style="padding-bottom: 60px;">Our Clients</h2>
+      <div class="swiper-container brandswiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/jio.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/satyamev.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/o2.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/eesl.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/timex.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/apsfl.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/ericsson.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/pebble.png">
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
+
+  <section class="gap no-bottom video-section">
+    <div class="container">
+      <div class="heading-boder two">
+        <h2 style="margin-bottom: 10px;">Let's Get Started</h2>
+        <p>Ready to elevate your digital presence with exceptional UI/UX design? <br> Contact us today to discuss your
+          project requirements and take the first <br> step towards creating a user-centric interface that drives
+          results.
+        </p>
+        <a href="#" class="themebtu">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
   <footer class="gap no-bottom" style="background-color: #222 ;">
     <div class="container">
       <div class="row">
         <div class="col-xl-3 col-lg-4 col-md-6">
           <div class="footer-logo">
-            <a href="index.html"><img alt="img" src="assets/img/logo.png"></a>
+            <a href="index.html"><img alt="img" src="assets/img/broadway9.png" style="width: 200px;"></a>
             <p>
               Broadway9 Automation Pvt. Ltd.
               D/1 , Shakti Dham CHSL,
@@ -351,8 +530,8 @@
           <div class="latest-news">
             <h6>Links</h6>
             <ul>
-              <li><a href="about.html">Who We Are</a></li>
-              <li><a href="aiml-solutions.html">Privacy Policy</a></li>
+              <li><a href="about.html">Who Are We</a></li>
+              <li><a href="privacy-policy.html">Privacy Policy</a></li>
               <li><a href="contacts.html">Contact Us</a></li>
             </ul>
           </div>
@@ -362,24 +541,25 @@
             <h6>Contact Us</h6>
             <!-- <p>Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.</p> -->
             <form>
-              <input type="text" name="email" placeholder="your email address">
-              <button>go</button>
+              <div style="color: white;">
+                info@broadway9.com
+              </div>
             </form>
           </div>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>© 2024 Broadway9 Theme - All Rights Reserved | Design by upifix</p>
+        <p style="color: white;">© 2024 Broadway9-Automation - All Rights Reserved </p>
         <ul>
-          <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-          <li><a href="#"><i class="fa-solid fa-m"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          <li><a href="#/"><img src="./assets/img/meta.png" alt="meta"></a></li>
+          <li><a href="#/"><img src="./assets/img/twitter.png" alt="twitter"></a></li>
+          <li><a href="#/"><img src="./assets/img/youtube.png" alt="youtube"></a></li>
+          <li><a href="#/"><img src="./assets/img/linkedin.png" alt="linkedin"></a></li>
         </ul>
       </div>
     </div>
   </footer>
+
   <!-- Back to top button -->
   <a id="button"></a>
   <!-- Back to top button end -->
@@ -387,5 +567,9 @@
   <script src="assets/js/jquery-3.6.0.min.js"></script>
   <!-- Bootstrap Js -->
   <script src="assets/js/bootstrap.min.js"></script>
+  <!-- fancybox -->
+  <script src="assets/js/jquery.fancybox.min.js"></script>
+  <!-- swiper -->
+  <script src="assets/js/swiper.js"></script>
   <script src="assets/js/custom.js"></script>
 </body>

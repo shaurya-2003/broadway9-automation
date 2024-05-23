@@ -4,13 +4,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Broadway9-Automstion - Mobile App Development</title>
-  <link rel="icon" href="assets/img/logo-icon.png">
-
+  <title>Broadway9-Automation - Mobile App Development</title>
+  <link rel="icon" href="assets/img/favicon.png">
   <!-- CSS only -->
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
   <!-- Font Awesome 6 -->
   <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+  <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+  <!-- swiper -->
+  <link rel="stylesheet" href="assets/css/swiper.css">
   <!-- style -->
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- responsive -->
@@ -37,18 +39,18 @@
       </div>
     </div> -->
   <!-- preloader end -->
-  <header class="three" style="background-image: url(assets/img/header.jpg)">
+  <header>
     <div class="container">
       <div class="nav">
         <div class="d-flex align-items-center">
           <div class="logo">
             <a href="index.html">
-              <img alt="logo" src="assets/img/logo.png">
+              <img alt="logo" src="assets/img/broadway9.png" style="width: 120px;">
             </a>
           </div>
           <ul class="menu">
             <li>
-              <a href="#">Home</a>
+              <a href="index.html">Home</a>
               <ul class="sub-menu">
                 <!-- <li><a href="index.html">homepage 1</a></li>
                 <li><a href="index-2.html">homepage 2</a></li>
@@ -71,12 +73,12 @@
                 <li><a href="smartcity-solutions.html">Smart City Solutions</a></li>
                 <li><a href="fintech-solutions.html">Fintech Solutions</a></li>
                 <li><a href="networking-solutions.html">Networking Solutions</a></li>
-                <li><a href="portfolio-single-v1.html">AI/ML Solutions</a></li>
-                <li><a href="portfolio-single-v2.html">portfolio single v2</a></li>
+                <li><a href="aiml-solutions.html">AI/ML Solutions</a></li>
+                <!-- <li><a href="portfolio-single-v2.html">portfolio single v2</a></li> -->
               </ul>
             </li>
             <li>
-              <a href="#">Who We Serve</a>
+              <a href="">Who We Serve</a>
               <ul class="sub-menu">
                 <li><a href="uiux.html">UI/UX</a></li>
                 <li><a href="software-development.html">Software Development</a></li>
@@ -89,7 +91,7 @@
             </li>
           </ul>
         </div>
-        <div>
+        <!-- <div>
           <form id="content">
             <input type="text" name="input" class="input" id="search-input">
             <button type="reset" class="search" id="search-btn"></button>
@@ -98,13 +100,13 @@
         </div>
         <div class="bar-menu">
           <i class="fa-solid fa-bars"></i>
-        </div>
+        </div> -->
       </div>
     </div>
     <div class="mobile-nav hmburger-menu" id="mobile-nav" style="display:block;">
       <div class="res-log">
         <a href="index.html">
-          <img src="assets/img/logo.png" alt="Responsive Logo">
+          <img src="assets/img/broadway9.png" alt="Responsive Logo">
         </a>
       </div>
       <ul>
@@ -113,17 +115,17 @@
           <ul class="sub-menu">
 
             <!-- <li><a href="index.html">homepage 1</a></li>
-              <li><a href="index-2.html">homepage 2</a></li>
-              <li><a href="index-3.html">homepage 3</a></li> -->
+            <li><a href="index-2.html">homepage 2</a></li>
+            <li><a href="index-3.html">homepage 3</a></li> -->
           </ul>
         </li>
         <li class="menu-item-has-children"><a href="JavaScript:void(0)">Who We Are</a>
           <ul class="sub-menu">
             <!-- <li><a href="about.html">about</a></li>
-                <li><a href="team.html">team</a></li>
-                <li><a href="services.html">services</a></li>
-                <li><a href="pricing.html">pricing</a></li>
-                <li><a href="404error.html">404 error</a></li> -->
+            <li><a href="team.html">team</a></li>
+            <li><a href="services.html">services</a></li>
+            <li><a href="pricing.html">pricing</a></li>
+            <li><a href="404error.html">404 error</a></li> -->
           </ul>
         </li>
 
@@ -145,7 +147,7 @@
 
             <li><a href="uiux.html">UI/UX</a></li>
             <li><a href="software-development.html">Software Development</a></li>
-            <li><a href="mobile-development.html">Moblie App Development</a></li>
+            <li><a href="mobile-development.html">Mobile App Development</a></li>
             <li><a href="digital-marketing.html">Digital Marketing</a></li>
           </ul>
 
@@ -158,157 +160,478 @@
       <a href="JavaScript:void(0)" id="res-cross"></a>
     </div>
   </header>
-  <section>
+  <section class="splash-area-section">
     <div class="container">
-      <div class="title-blog">
-        <h2>Mobile App Development</h2>
-        <!-- <a href="#">Blog Single Post</a> -->
+      <div class="splash-area">
+        <h2 style="font-size: 80px; font-weight: 600; line-height: 80px;text-align: center;">Mobile App Development</h2>
       </div>
-      <div class="row">
-        <div class="col-xl-8">
-          <div class="blog-item">
-            <img alt="img" src="https://via.placeholder.com/930x500">
-            <h6>Unlocking Growth Potential Through Mobile App
-              Innovation</h6>
-            <p class="p-30">Welcome to our Mobile App Development Services page. In today's digital age, mobile apps
+    </div>
+  </section>
+
+  <section class="gap no-top">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 ">
+          <div class="heading">
+            <h3 style="margin-bottom: 35px;">Unlocking Growth Potential Through Mobile App <br>
+              Innovation</h3>
+          </div>
+          <div class="marketing two">
+            <p class="pt-3">Welcome to our Mobile App Development Services page. In today's digital age, mobile apps
               have become indispensable tools for businesses to engage with their audience, enhance customer experience,
-              and drive growth. At Harry & Liu, we specialize in creating custom mobile apps tailored to your unique
-              needs and objectives, helping you capitalize on the power of mobile technology.</p>
-            <div class="quote-bg">
-              <img alt="quote" src="assets/img/quote.png">
-              <h6>“ Why Mobile Apps Matter ”</h6>
+              and drive growth. At Broadway9-Automation, we specialize in creating custom mobile apps tailored to your
+              unique
+              needs and objectives, helping you capitalize on the power of mobile technology.
+            </p>
+          </div>
+        </div>
+        <div class="offset-xl-1 col-lg-5">
+          <div class="graph">
+            <img alt="img" src="assets/img/mobile-development-hero.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <div class="brands-we-work gap">
+    <div class="container">
+      <h2 style="padding-bottom: 60px;">Strategic Partners</h2>
+      <div class="swiper-container brandswiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/image-1.png">
             </div>
           </div>
-          <div class="row align-items-center">
-            <div class="col-lg-5 ">
-              <img alt="img" class="w-100" src="https://via.placeholder.com/368x409">
-            </div>
-            <div class="col-lg-7 pl-60">
-              <h6 class="pt-lg-0 pt-5 pb-4">Accessibility</h6>
-              <p>With smartphones becoming ubiquitous, mobile apps offer unparalleled accessibility, allowing users to
-                access your products or services anytime, anywhere.</p>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/image-2.png">
             </div>
           </div>
-          <p class="p-30">Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
-            facilisis. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem
-            neque sed ipsum. Class aptent taciti sociosqu ad
-            litora torquent per conubia nostra, per inceptos hymenaeos.</p>
-          <div class="next-previous-page two">
-            <div class="container">
-              <div class="next-previous">
-                <div class="prev">
-                  <a href="#">
-                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                      x="0px" y="0px" viewBox="0 0 476.213 476.213" style="enable-background:new 0 0 476.213 476.213;"
-                      xml:space="preserve">
-                      <polygon points="405.606,167.5 384.394,188.713 418.787,223.106 0,223.106 0,253.106 418.787,253.106 384.394,287.5 
-                      405.606,308.713 476.213,238.106 " />
-                    </svg>
-                    prev page</a>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/image-3.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/image-4.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/image-5.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/image-6.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/image-7.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="we-deliver-results gap">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-4 col-lg-6">
+          <h2 style="color: #222; padding-top: 140px;">Why Mobile App Development Matter</h2>
+        </div>
+        <div class="col-xl-4 col-lg-6">
+          <div class="makes-us-different-text" style="background-color: white;">
+            <h4>Accessibility</h4>
+            <p>
+              With smartphones becoming ubiquitous, mobile apps offer unparalleled accessibility, allowing users to
+              access your products or services anytime, anywhere.
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6">
+          <div class="makes-us-different-text" style="background-color: white;">
+            <h4>Enhanced User Experience</h4>
+            <p>
+              Mobile apps provide a seamless and intuitive user experience, enabling personalized interactions and
+              engagement that desktop or mobile websites cannot match.
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6">
+          <div class="makes-us-different-text" style="background-color: white;">
+            <h4>Brand Visibility</h4>
+            <p>
+              Having a mobile app increases your brand’s visibility and presence on users’ devices, serving as a
+              constant reminder of your products or services.
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6">
+          <div class="makes-us-different-text" style="background-color: white;">
+            <h4>Customer Engagement</h4>
+            <p>
+              Mobile apps enable direct communication with your audience through push notifications, in-app messages,
+              and personalized offers, fostering stronger relationships and loyalty.
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6">
+          <div class="makes-us-different-text" style="background-color: white;">
+            <h4>Competitive Advantage</h4>
+            <p>
+              In today’s competitive market, having a mobile app sets you apart from competitors and positions your
+              brand as innovative and forward-thinking.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="why-choose-us-section" style="background-color: #f0f5ff;">
+    <div class="container" style="margin: 70px auto;">
+      <h2>Process Flow</h2>
+      <div class="row" id="row-cust-row-1" style="margin-bottom: 40px;">
+        <div class="col-md-6">
+          <div class="card" style="background-color: #fff;">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-12 d-flex align-items-center">
+                  <div class="col-md-4 card_img_div">
+                    <img src="./assets/img/rating-1.png" style="width: 100%;" alt="Image 1">
+                  </div>
+                  <div class="col-md-8" style="margin-left: 15px;">
+                    <h3>Expertise</h3>
+                  </div>
                 </div>
-                <div class="next">
-                  <a href="#">
-                    next page
-                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                      x="0px" y="0px" viewBox="0 0 476.213 476.213" style="enable-background:new 0 0 476.213 476.213;"
-                      xml:space="preserve">
-                      <polygon points="405.606,167.5 384.394,188.713 418.787,223.106 0,223.106 0,253.106 418.787,253.106 384.394,287.5 
-                      405.606,308.713 476.213,238.106 " />
-                    </svg>
-                  </a>
+                <div class="col-md-12">
+                  <p>With years of experience in mobile app development, our team brings a wealth of expertise to every
+                    project. We stay ahead of the curve with the latest technologies and trends, ensuring your app is
+                    innovative and competitive.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-xl-4 pl-60">
-          <ul class="sidebar">
-            <li>
-              <h4>Enhanced User Experience </h4>
-              <span>Mobile apps provide a seamless and intuitive user experience, enabling personalized interactions and
-                engagement that desktop or mobile websites cannot match.</span>
-            </li>
-            <li>
-              <h4>Date :</h4>
-              <span>August 10, 2020</span>
-            </li>
-            <li>
-              <h4>Category :</h4>
-              <a href="#"><span>Digital Strategy</span>,</a>
-              <a href="#"><span>Branding</span>,</a>
-              <a href="#"><span>Design</span></a>
-            </li>
-            <li>
-              <h4>Share post :</h4>
-              <ul class="brandicon">
-                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-              </ul>
-            </li>
-          </ul>
+        <div class="col-md-6">
+          <div class="card" style="background-color: #fff;">
+            <div class="card-body">
+              <div class="row" id="row-cust-row-1">
+                <div class="col-md-12 d-flex align-items-center">
+                  <div class="col-md-4 card_img_div">
+                    <img src="./assets/img/data.png" style="width: 100%;" alt="Image 1">
+                  </div>
+                  <div class="col-md-8" style="margin-left: 15px;">
+                    <h3>Quality Assurance</h3>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <p>Quality is our top priority. We adhere to industry best practices and rigorous testing protocols to
+                    ensure your app meets the highest standards of performance, security, and reliability. You can trust
+                    us to deliver a mobile app that exceeds your expectations and delights.</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <div class="row" id="row-cust-row-1">
+        <div class="col-md-6">
+          <div class="card" style="background-color: #fff;">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-12 d-flex align-items-center">
+                  <div class="col-md-4 card_img_div">
+                    <img src="./assets/img/collaborate.png" style="width: 100%;" alt="Image 1">
+                  </div>
+                  <div class="col-md-8" style="margin-left: 15px;">
+                    <h3>Collaborative Approach</h3>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <p>We believe in close collaboration with our clients throughout the development process. From initial
+                    concept to final delivery, we keep you involved and informed every step of the way, ensuring
+                    transparency, communication, and alignment with your goals.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card" style="background-color: #fff;">
+            <div class="card-body">
+              <div class="row" id="row-cust-row-1">
+                <div class="col-md-12 d-flex align-items-center">
+                  <div class="col-md-4 card_img_div">
+                    <img src="./assets/img/home-1.png" style="width: 100%;" alt="Image 1">
+                  </div>
+                  <div class="col-md-8" style="margin-left: 15px;">
+                    <h3>Support & Maintenance</h3>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <p>Our relationship doesn't end once your app is launched. We provide ongoing support and maintenance
+                    to keep your app running smoothly and up-to-date. Whether it's fixing bugs, adding new features, or
+                    optimizing performance, we're here to support your app's success.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    </div>
-  </section>
-  <section class="gap blog-recent-posts">
-    <div class="container">
-      <h4 class="mb-5">Recent Posts</h4>
-      <div class="row">
-        <div class="col-xl-3 col-lg-4 col-md-6">
-          <div class="latest-blog-post">
-            <img alt="img" class="w-100" src="https://via.placeholder.com/329x239">
-            <a href="#"><i class="fa-regular fa-clock"></i><span>August 10, 2023</span></a>
-            <a href="#">
-              <h4>Brand Visibility</h4>
-            </a>
-            <span>Having a mobile app increases your brand’s visibility and presence on users’ devices, serving as a
-              constant reminder of your products or services.</span>
+  <section class="why-choose-us-section">
+    <div class="container" style="margin: 70px auto;">
+      <h2>Our Process Flow</h2>
+      <div class="row" id="row-cust-row-1" style="margin-bottom: 40px;">
+        <div class="col-md-6">
+          <div class="card" style="background-color: #fff;">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-12 d-flex align-items-center">
+                  <div class="col-md-4 card_img_div">
+                    <img src="./assets/img/consulting.png" style="width: 100%;" alt="Image 1">
+                  </div>
+                  <div class="col-md-8" style="margin-left: 15px;">
+                    <h3>Consultation & Planning</h3>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <p>We start by understanding your business goals, target audience, and technical requirements through
+                    comprehensive consultations. Based on this, we create a detailed project plan outlining milestones,
+                    timelines, and deliverables.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-xl-3 col-lg-4 col-md-6">
-          <div class="latest-blog-post">
-            <img alt="img" class="w-100" src="https://via.placeholder.com/329x239">
-            <a href="#"><i class="fa-regular fa-clock"></i><span>August 10, 2023</span></a>
-            <a href="#">
-              <h4>Customer Engagement</h4>
-            </a>
-            <span>Mobile apps enable direct communication with your audience through push notifications, in-app
-              messages, and personalized offers, fostering stronger relationships and loyalty.</span>
+        <div class="col-md-6">
+          <div class="card" style="background-color: #fff;">
+            <div class="card-body">
+              <div class="row" id="row-cust-row-1">
+                <div class="col-md-12 d-flex align-items-center">
+                  <div class="col-md-4 card_img_div">
+                    <img src="./assets/img/coding.png" style="width: 100%;" alt="Image 1">
+                  </div>
+                  <div class="col-md-8" style="margin-left: 15px;">
+                    <h3>Design & Deployment</h3>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <p>Our team of experienced designers and developers bring your app idea to life, focusing on creating
+                    an intuitive user interface and seamless user experience. We leverage the latest technologies and
+                    best practices to ensure your app is robust, scalable, and future-proof.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-xl-3 col-lg-4 col-md-6">
-          <div class="latest-blog-post">
-            <img alt="img" class="w-100" src="https://via.placeholder.com/329x239">
-            <a href="#"><i class="fa-regular fa-clock"></i><span>August 10, 2023</span></a>
-            <a href="#">
-              <h4>Competitive Advantage</h4>
-            </a>
-            <span>In today’s competitive market, having a mobile app sets you apart from competitors and positions your
-              brand as innovative and forward-thinking.</span>
+      </div>
+      <div class="row" id="row-cust-row-1">
+        <div class="col-md-6">
+          <div class="card" style="background-color: #fff;">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-12 d-flex align-items-center">
+                  <div class="col-md-4 card_img_div">
+                    <img src="./assets/img/unit-testing.png" style="width: 100%;" alt="Image 1">
+                  </div>
+                  <div class="col-md-8" style="margin-left: 15px;">
+                    <h3>Test Quality & Assurance</h3>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <p>We conduct rigorous testing throughout the development process to identify and resolve any bugs or
+                    issues, ensuring your app meets the highest quality standards and delivers a flawless user
+                    experience.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-xl-3 col-lg-4 col-md-6">
-          <div class="latest-blog-post mb-0">
-            <img alt="img" class="w-100" src="https://via.placeholder.com/329x239">
-            <a href="#"><i class="fa-regular fa-clock"></i><span>August 10, 2023</span></a>
-            <a href="#">
-              <h4>Donec nec justo eget felis facilisis fermentum.</h4>
-            </a>
-            <span>by Jane Luna | Digital Strategy</span>
+        <div class="col-md-6">
+          <div class="card" style="background-color: #fff;">
+            <div class="card-body">
+              <div class="row" id="row-cust-row-1">
+                <div class="col-md-12 d-flex align-items-center">
+                  <div class="col-md-4 card_img_div">
+                    <img src="./assets/img/startup.png" style="width: 100%;" alt="Image 1">
+                  </div>
+                  <div class="col-md-8" style="margin-left: 15px;">
+                    <h3>Deployment & Launch</h3>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <p>Once your app is developed and tested, we assist with the deployment process and ensure a smooth
+                    launch on the appropriate app stores. We provide support and guidance to help you maximize
+                    visibility and downloads.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  <section class="blog-posts gap no-top">
+    <div class="container">
+      <div class="heading-boder two">
+        <h2>What Our Clients Say!</h2>
+      </div>
+      <div class="swiper-partner partnerswiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>Managing the cricket tournament wouldn’t be possible if we had not used Procric8 designed and developed
+                by Broadway9-Automation. I’m very excited to say that all 200+ Players were happy with LIVE SCORE
+                updates on the
+                ground as well as on App during matches. </p>
+              <span>Jiten Oza | Proprietor | Compact Business Machines</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>Broadway9-Automation executes the design of a product exactly the way it is provided, or suggest ways
+                to improve
+                navigation, usability; to make our lives easier. It is a pleasure to work with and I highly recommend
+                the company to those who want a job done the way they envision it. </p>
+              <span>Jay Majithia | Prorpietor | Niramay Briodant</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>One word “Kaizen”. A popular concept of the Japanese “Kaizen” which means continuous self improvement.
+                Can be seen here in Broadway9-Automation ideas, solutions, methodologies, and practices followed by
+                them. I
+                extend my gratitude to broadway9's team for their support. </p>
+              <span>Krishna Majithia | Managing Director | City Group</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>Broadway9-Automation does the exact same thing with technologies. It knows how to gather the customer
+                requirements and carve the imagination in a valuable product. Their customised software helped us in our
+                marketing campaigns to our consumers. </p>
+              <span>Milind Trivedi | Creative Production Head | Grace Communication</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>Broadway9-Automation have blown me away when it
+                comes to application development and deployment,<br> providing unbelievable account management,
+                great agility and serious innovation. </p>
+              <span>Nalin Shah | Director | India Latina PCI</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>Our project was executed elegantly with a high degree of professionalism and technical expertise. We
+                would be happy to work with Broadway9-Automation again and we hope the opportunity presents itself. </p>
+              <span>Arun Kochar | Director | A K Kochar & Associates</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>Broadway9-Automation was able to support us end to end from articulating functional specifications and
+                technical
+                design through application
+                delivery. We value the strong and positive relationship we have built with the Broadway9's team.</p>
+              <span>Navin | Director | Blab</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>Broadway9-Automation blend this great vision they have for creating an extraordinary company by
+                instilling a
+                deep sense of practicality and methodology to deliver applications and mobile apps on time and on
+                budget. </p>
+              <span>Jugal Shah | CEO | Leo9 Studio</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="brands-we-work gap">
+    <div class="container">
+      <h2 style="padding-bottom: 60px;">Our Clients</h2>
+      <div class="swiper-container brandswiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/jio.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/satyamev.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/o2.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/eesl.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/timex.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/apsfl.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/ericsson.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/pebble.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="gap no-bottom video-section">
+    <div class="container">
+      <div class="heading-boder two">
+        <h2 style="margin-bottom: 10px;">Let's Create your Mobile App</h2>
+        <p>Ready to take your business to the next level with a custom mobile app? <br>
+          Contact us today to discuss your project requirements and discover <br> how our mobile app development services can
+          help you achieve your goals.
+        </p>
+        <a href="#" class="themebtu">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
   <footer class="gap no-bottom" style="background-color: #222 ;">
     <div class="container">
       <div class="row">
         <div class="col-xl-3 col-lg-4 col-md-6">
           <div class="footer-logo">
-            <a href="index.html"><img alt="img" src="assets/img/logo.png"></a>
+            <a href="index.html"><img alt="img" src="assets/img/broadway9.png" style="width: 200px;"></a>
             <p>
               Broadway9 Automation Pvt. Ltd.
               D/1 , Shakti Dham CHSL,
@@ -333,8 +656,8 @@
           <div class="latest-news">
             <h6>Links</h6>
             <ul>
-              <li><a href="about.html">Who We Are</a></li>
-              <li><a href="aiml-solutions.html">Privacy Policy</a></li>
+              <li><a href="about.html">Who Are We</a></li>
+              <li><a href="privacy-policy.html">Privacy Policy</a></li>
               <li><a href="contacts.html">Contact Us</a></li>
             </ul>
           </div>
@@ -342,26 +665,27 @@
         <div class="col-xl-3 col-lg-4 col-md-6">
           <div class="latest-news">
             <h6>Contact Us</h6>
-            <p>Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.</p>
+            <!-- <p>Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.</p> -->
             <form>
-              <input type="text" name="email" placeholder="your email address">
-              <button>go</button>
+              <div style="color: white;">
+                info@broadway9.com
+              </div>
             </form>
           </div>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>© 2024 Broadway9 Theme - All Rights Reserved | Design by upifix</p>
+        <p style="color: white;">© 2024 Broadway9-Automation - All Rights Reserved </p>
         <ul>
-          <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-          <li><a href="#"><i class="fa-solid fa-m"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          <li><a href="#/"><img src="./assets/img/meta.png" alt="meta"></a></li>
+          <li><a href="#/"><img src="./assets/img/twitter.png" alt="twitter"></a></li>
+          <li><a href="#/"><img src="./assets/img/youtube.png" alt="youtube"></a></li>
+          <li><a href="#/"><img src="./assets/img/linkedin.png" alt="linkedin"></a></li>
         </ul>
       </div>
     </div>
   </footer>
+
   <!-- Back to top button -->
   <a id="button"></a>
   <!-- Back to top button end -->
@@ -369,5 +693,9 @@
   <script src="assets/js/jquery-3.6.0.min.js"></script>
   <!-- Bootstrap Js -->
   <script src="assets/js/bootstrap.min.js"></script>
+  <!-- fancybox -->
+  <script src="assets/js/jquery.fancybox.min.js"></script>
+  <!-- swiper -->
+  <script src="assets/js/swiper.js"></script>
   <script src="assets/js/custom.js"></script>
 </body>

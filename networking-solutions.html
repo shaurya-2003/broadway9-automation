@@ -5,13 +5,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Broadway9-Automation - Networking Solutions</title>
-  <link rel="icon" href="assets/img/logo-icon.png">
+  <link rel="icon" href="assets/img/favicon.png">
 
   <!-- CSS only -->
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
   <!-- Font Awesome 6 -->
   <link rel="stylesheet" href="assets/css/fontawesome.min.css">
   <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="assets/css/swiper.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <!-- style -->
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- responsive -->
@@ -22,21 +24,21 @@
 
 <body>
   <!-- preloader start -->
-  <!-- <div class="preloader"> 
-      <div>
+  <!-- <div class="preloader">
+    <div>
       <div class="container">
-      <div class="squarebox one"></div>
-      <div class="squarebox two"></div>
-      <div class="squarebox three"></div>
-      <div class="squarebox two"></div>
-      <div class="squarebox three"></div>
-      <div class="squarebox four"></div>
-      <div class="squarebox three"></div>
-      <div class="squarebox four"></div>
-      <div class="squarebox five"></div>
+        <div class="squarebox one"></div>
+        <div class="squarebox two"></div>
+        <div class="squarebox three"></div>
+        <div class="squarebox two"></div>
+        <div class="squarebox three"></div>
+        <div class="squarebox four"></div>
+        <div class="squarebox three"></div>
+        <div class="squarebox four"></div>
+        <div class="squarebox five"></div>
       </div>
-      </div>
-    </div> -->
+    </div>
+  </div> -->
   <!-- preloader end -->
   <header>
     <div class="container">
@@ -44,7 +46,7 @@
         <div class="d-flex align-items-center">
           <div class="logo">
             <a href="index.html">
-              <img alt="logo" src="assets/img/logo.png">
+              <img alt="logo" src="assets/img/broadway9.png" style="width: 120px;padding-top: 1rem;">
             </a>
           </div>
           <ul class="menu">
@@ -86,11 +88,11 @@
               </ul>
             </li>
             <li>
-              <a href="contacts.html">contacts</a>
+              <a href="contacts.html">Send Enquiry</a>
             </li>
           </ul>
         </div>
-        <div>
+        <!-- <div>
           <form id="content">
             <input type="text" name="input" class="input" id="search-input">
             <button type="reset" class="search" id="search-btn"></button>
@@ -99,13 +101,13 @@
         </div>
         <div class="bar-menu">
           <i class="fa-solid fa-bars"></i>
-        </div>
+        </div> -->
       </div>
     </div>
     <div class="mobile-nav hmburger-menu" id="mobile-nav" style="display:block;">
       <div class="res-log">
         <a href="index.html">
-          <img src="assets/img/logo.png" alt="Responsive Logo">
+          <img src="assets/img/broadway9.png" alt="Responsive Logo">
         </a>
       </div>
       <ul>
@@ -114,17 +116,17 @@
           <ul class="sub-menu">
 
             <!-- <li><a href="index.html">homepage 1</a></li>
-              <li><a href="index-2.html">homepage 2</a></li>
-              <li><a href="index-3.html">homepage 3</a></li> -->
+            <li><a href="index-2.html">homepage 2</a></li>
+            <li><a href="index-3.html">homepage 3</a></li> -->
           </ul>
         </li>
-        <li class="menu-item-has-children"><a href="JavaScript:void(0)">WHo We Are</a>
+        <li class="menu-item-has-children"><a href="JavaScript:void(0)">Who We Are</a>
           <ul class="sub-menu">
-            <!-- <li><a href="about.html">about</a></li>
-                <li><a href="team.html">team</a></li>
-                <li><a href="services.html">services</a></li>
-                <li><a href="pricing.html">pricing</a></li>
-                <li><a href="404error.html">404 error</a></li> -->
+            <!-- <li><a href="smartcity-solutions.html">about</a></li>
+            <li><a href="fintech-solutions.html">team</a></li>
+            <li><a href="networking-solutions.html">services</a></li>
+            <li><a href="ai/ml-solutions.html">pricing</a></li>
+            <li><a href="404error.html">404 error</a></li> -->
           </ul>
         </li>
 
@@ -159,144 +161,492 @@
       <a href="JavaScript:void(0)" id="res-cross"></a>
     </div>
   </header>
-  <section class="splash-area-section" style="background-image: url(assets/img/background.jpg)">
-    <div class="container">
-      <div class="splash-area">
-        <h2>Notworking Solutions</h2>
-        <!-- <a href="#">Portfolio Grid</a> -->
-      </div>
+  <!-- <section class="hero-section-one" style="background-image: url(https://via.placeholder.com/1920x982)"> -->
+  <div class="container">
+    <div class="heading-boder">
+      <h2><span
+          style="font-size: 80px; font-weight: 600; line-height: 80px;text-align: center; margin-bottom: 150px;">Networking
+          Solutions</span>
+      </h2>
     </div>
+  </div>
   </section>
-  <section class="gap no-bottom">
+
+  <section class="gap">
     <div class="container">
       <div class="row">
-        <div class="col-xl-6">
-          <div class="portfolios-three hoverstyle">
-            <figure>
-              <img alt="portfolios img" class="w-100" src="https://via.placeholder.com/681x681">
-            </figure>
-            <div class="portfolios-data">
-              <a href="#">
-                <h4>Empowering Connectivity with
-                  Comprehensive Networking Solutions</h4>
-              </a>
-              <a href="#">Welcome to our Networking Solutions page. In today's interconnected world, reliable and robust
-                networking infrastructure is essential for businesses to thrive and succeed. At Harry & Liu, we
-                specialize in providing a wide variety of networking hardware solutions tailored to meet your
-                connectivity needs</a>
+        <div class="col-lg-6">
+          <div class="graph">
+            <img alt="img" src="assets/img/image 38.png">
+          </div>
+        </div>
+        <div class="col-lg-6 p-sm-0">
+          <div class="marketing">
+            <h4>
+              Transforming Urban Living with Smart City <br> Innovations
+            </h4>
+            <p>Welcome to our Networking Solutions page. In today's interconnected world, reliable and robust networking
+              infrastructure is essential for businesses to thrive and succeed. At Broadway9-Automation, we specialize
+              in
+              providing a wide variety of networking hardware solutions tailored to meet your connectivity needs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="brands-we-work gap">
+    <div class="container">
+      <h2 style="padding-bottom: 60px;">Strategic Partners</h2>
+      <div class="swiper-container brandswiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/image-1.png">
             </div>
           </div>
-          <div class="portfolios-three hoverstyle">
-            <figure>
-              <img alt="portfolios img" class="w-100" src="https://via.placeholder.com/681x326">
-            </figure>
-            <div class="portfolios-data">
-              <a href="#">
-                <h4>Seamless Connectivity</h4>
-              </a>
-              <a href="#">Networking solutions enable seamless communication and connectivity across devices, locations,
-                and platforms, facilitating collaboration, productivity, and innovation.</a>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/image-2.png">
             </div>
           </div>
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="portfolios-three hoverstyle">
-                <figure>
-                  <img alt="portfolios img" class="w-100" src="https://via.placeholder.com/329x329">
-                </figure>
-                <div class="portfolios-data">
-                  <a href="#">
-                    <h4>Scalability & Flexibility</h4>
-                  </a>
-                  <a href="#">Scalable and flexible networking solutions adapt to the changing needs and growth of your
-                    business, ensuring optimal performance and efficiency as your requirements evolve.</a>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/image-3.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/image-4.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/image-5.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/image-6.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/image-7.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="we-deliver-results gap" style="background-color: #f0f5ff;">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-4 col-lg-6">
+          <h2 style="color: #222; padding-top: 140px;">Why Networking Solutions Matter</h2>
+        </div>
+        <div class="col-xl-4 col-lg-6">
+          <div class="makes-us-different-text">
+            <h4>Seamless Connectivity</h4>
+            <p>
+              Networking solutions enable seamless communication and connectivity across devices, locations, and
+              platforms, facilitating collaboration, productivity, and innovation.
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6">
+          <div class="makes-us-different-text">
+            <h4>Scalability & Flexibility</h4>
+            <p>
+              Scalable and flexible networking solutions adapt to the changing needs and growth of your business,
+              ensuring optimal performance and efficiency as your requirements evolve.
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6">
+          <div class="makes-us-different-text">
+            <h4>Reliability & Security</h4>
+            <p>
+              Robust networking infrastructure ensures reliable and secure transmission of data, protecting sensitive
+              information and mitigating risks associated with downtime, breaches, and cyber threats.
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6">
+          <div class="makes-us-different-text">
+            <h4>Enhanced Productivity</h4>
+            <p>
+              Efficient networking solutions streamline operations, reduce latency, and optimize bandwidth usage,
+              enabling faster data transfer and response times, and improving overall productivity.
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6">
+          <div class="makes-us-different-text">
+            <h4>Future Proofing</h4>
+            <p>
+              Investing in networking solutions future-proofs your infrastructure, allowing you to leverage emerging
+              technologies and trends such as IoT, cloud computing, and 5G, to stay competitive and innovative.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gap no-top">
+    <div class="container">
+      <h2
+        style="font-size: 80px; font-weight: 600; line-height: 80px;text-align: center; margin-bottom: 150px; margin-top: 100px;">
+        Our
+        Solutions</h2>
+      <div class="row align-items-center">
+        <div class="col-lg-6 ">
+          <div class="heading">
+            <h3 style="margin-bottom: 35px;">Routers</h3>
+          </div>
+          <div class="marketing two">
+            <p class="pt-3">We provide a wide variety of routers, including enterprise-grade routers, wireless routers,
+              and edge
+              routers, to meet your specific networking requirements and performance needs.</p>
+          </div>
+        </div>
+        <div class="offset-xl-1 col-lg-5">
+          <div class="graph">
+            <img alt="img" src="assets/img/wi-fi-routers-with-routers.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="gap">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="graph">
+            <img alt="img" src="assets/img/router-ethernet.jpg">
+          </div>
+        </div>
+        <div class="col-lg-6 p-sm-0">
+          <div class="heading">
+            <h6 style="color: #222; padding-top: 50px;padding-bottom: 20px;">GPON & ONU Devices</h6>
+            <p>Our GPON and ONU devices enable high-speed broadband connectivity, delivering fiber-optic internet access
+              to residential and commercial properties with reliable and scalable solutions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gap no-top">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 ">
+          <div class="heading">
+            <h3 style="margin-bottom: 35px;">Pocket Wifi Routers</h3>
+          </div>
+          <div class="marketing two">
+            <p class="pt-3">As pioneers in the field, we introduced the first pocket WiFi router in India, providing
+              convenient and portable internet access on-the-go to users across the country.</p>
+          </div>
+        </div>
+        <div class="offset-xl-1 col-lg-5">
+          <div class="graph">
+            <img alt="img" src="assets/img/pocket-wifi.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="gap">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="graph">
+            <img alt="img" src="assets/img/networking-routers.jpg">
+          </div>
+        </div>
+        <div class="col-lg-6 p-sm-0">
+          <div class="heading">
+            <h6 style="color: #222; padding-top: 50px;padding-bottom: 20px;">Industrial Networking Routers</h6>
+            <p>Partnering with industry leaders like Ericsson, we supply industrial-grade networking routers for
+              mission-critical applications in sectors such as manufacturing, utilities, and transportation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gap no-top">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 ">
+          <div class="heading">
+            <h3 style="margin-bottom: 35px;">IPTV Boxes</h3>
+          </div>
+          <div class="marketing two">
+            <p class="pt-3">We have served IPTV boxes to the southern states of India, delivering high-quality streaming
+              and multimedia content to households and businesses, enhancing entertainment and communication experiences
+            </p>
+          </div>
+        </div>
+        <div class="offset-xl-1 col-lg-5">
+          <div class="graph">
+            <img alt="img" src="assets/img/remote.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="why-choose-us-section" style="background-color: #f0f5ff;">
+    <div class="container" style="margin: 70px auto;">
+      <h2>Process Flow</h2>
+      <div class="row" id="row-cust-row-1" style="margin-bottom: 40px;">
+        <div class="col-md-6">
+          <div class="card" style="background-color: #fff;">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-12 d-flex align-items-center">
+                  <div class="col-md-4 card_img_div">
+                    <img src="./assets/img/icon11.png" style="width: 100%;" alt="Image 1">
+                  </div>
+                  <div class="col-md-8" style="margin-left: 15px;">
+                    <h3>Expertise & Experience</h3>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="portfolios-three hoverstyle">
-                <figure>
-                  <img alt="portfolios img" class="w-100" src="https://via.placeholder.com/329x329">
-                </figure>
-                <div class="portfolios-data">
-                  <a href="#">
-                    <h4>Reliability & Security</h4>
-                  </a>
-                  <a href="#">Robust networking infrastructure ensures reliable and secure transmission of data,
-                    protecting sensitive information and mitigating risks associated with downtime, breaches, and cyber
-                    threats.</a>
+                <div class="col-md-12">
+                  <p>With a proven track record and years of experience in the networking industry, we bring deep
+                    expertise and knowledge to every project, ensuring reliable and effective solutions.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-xl-6">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="portfolios-three hoverstyle">
-                <figure>
-                  <img alt="portfolios img" class="w-100" src="https://via.placeholder.com/329x329">
-                </figure>
-                <div class="portfolios-data">
-                  <a href="#">
-                    <h4>Enhanced Productivity</h4>
-                  </a>
-                  <a href="#">Efficient networking solutions streamline operations, reduce latency, and optimize
-                    bandwidth usage, enabling faster data transfer and response times, and improving overall
-                    productivity.</a>
+        <div class="col-md-6">
+          <div class="card" style="background-color: #fff;">
+            <div class="card-body">
+              <div class="row" id="row-cust-row-1">
+                <div class="col-md-12 d-flex align-items-center">
+                  <div class="col-md-4 card_img_div">
+                    <img src="./assets/img/customize.png" style="width: 100%;" alt="Image 1">
+                  </div>
+                  <div class="col-md-8" style="margin-left: 15px;">
+                    <h3>Customisation</h3>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="portfolios-three hoverstyle">
-                <figure>
-                  <img alt="portfolios img" class="w-100" src="https://via.placeholder.com/329x329">
-                </figure>
-                <div class="portfolios-data">
-                  <a href="#">
-                    <h4>Future-Proofing</h4>
-                  </a>
-                  <a href="#">Investing in networking solutions future-proofs your infrastructure, allowing you to
-                    leverage emerging technologies and trends such as IoT, cloud computing, and 5G, to stay competitive
-                    and innovative.</a>
+                <div class="col-md-12">
+                  <p>We understand that every business has unique networking needs, which is why we offer customized
+                    solutions tailored to your specific requirements, budget, and performance objectives.</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="portfolios-three hoverstyle">
-            <figure>
-              <img alt="portfolios img" class="w-100" src="https://via.placeholder.com/681x681">
-            </figure>
-            <div class="portfolios-data">
-              <a href="#">
-                <h4>GPON & ONU Devices</h4>
-              </a>
-              <a href="#">Our GPON and ONU devices enable high-speed broadband connectivity, delivering fiber-optic
-                internet access to residential and commercial properties with reliable and scalable solutions.</a>
+        </div>
+      </div>
+      <div class="row" id="row-cust-row-1">
+        <div class="col-md-6">
+          <div class="card" style="background-color: #fff;">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-12 d-flex align-items-center">
+                  <div class="col-md-4 card_img_div">
+                    <img src="./assets/img/collaborate.png" style="width: 100%;" alt="Image 1">
+                  </div>
+                  <div class="col-md-8" style="margin-left: 15px;">
+                    <h3>Partnerships & Collaborations</h3>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <p>We partner with leading technology providers and manufacturers to deliver best-in-class networking
+                    solutions that meet the highest standards of quality, performance, and reliability.</p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="portfolios-three hoverstyle">
-            <figure>
-              <img alt="portfolios img" class="w-100" src="https://via.placeholder.com/681x326">
-            </figure>
-            <div class="portfolios-data">
-              <a href="#">
-                <h4>Routers</h4>
-              </a>
-              <a href="#">We provide a wide variety of routers, including enterprise-grade routers, wireless routers,
-                and edge routers, to meet your specific networking requirements and performance needs.</a>
+        </div>
+        <div class="col-md-6">
+          <div class="card" style="background-color: #fff;">
+            <div class="card-body">
+              <div class="row" id="row-cust-row-1">
+                <div class="col-md-12 d-flex align-items-center">
+                  <div class="col-md-4 card_img_div">
+                    <img src="./assets/img/home-1.png" style="width: 100%;" alt="Image 1">
+                  </div>
+                  <div class="col-md-8" style="margin-left: 15px;">
+                    <h3>Customer Support & Service</h3>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <p>Our commitment to customer satisfaction extends beyond the sale. We provide ongoing support,
+                    maintenance, and training to ensure your networking infrastructure operates smoothly and
+                    efficiently.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  <section class="blog-posts gap no-top">
+    <div class="container">
+      <div class="heading-boder two">
+        <h2>What Our Clients Say!</h2>
+      </div>
+      <div class="swiper-partner partnerswiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>Managing the cricket tournament wouldn’t be possible if we had not used Procric8 designed and developed
+                by Broadway9-Automation. I’m very excited to say that all 200+ Players were happy with LIVE SCORE
+                updates on the
+                ground as well as on App during matches. </p>
+              <span>Jiten Oza | Proprietor | Compact Business Machines</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>Broadway9-Automation executes the design of a product exactly the way it is provided, or suggest ways
+                to improve
+                navigation, usability; to make our lives easier. It is a pleasure to work with and I highly recommend
+                the company to those who want a job done the way they envision it. </p>
+              <span>Jay Majithia | Prorpietor | Niramay Briodant</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>One word “Kaizen”. A popular concept of the Japanese “Kaizen” which means continuous self improvement.
+                Can be seen here in Broadway9-Automation ideas, solutions, methodologies, and practices followed by
+                them. I
+                extend my gratitude to broadway9's team for their support. </p>
+              <span>Krishna Majithia | Managing Director | City Group</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>Broadway9-Automation does the exact same thing with technologies. It knows how to gather the customer
+                requirements and carve the imagination in a valuable product. Their customised software helped us in our
+                marketing campaigns to our consumers. </p>
+              <span>Milind Trivedi | Creative Production Head | Grace Communication</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>Broadway9-Automation have blown me away when it
+                comes to application development and deployment,<br> providing unbelievable account management,
+                great agility and serious innovation. </p>
+              <span>Nalin Shah | Director | India Latina PCI</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>Our project was executed elegantly with a high degree of professionalism and technical expertise. We
+                would be happy to work with Broadway9-Automation again and we hope the opportunity presents itself. </p>
+              <span>Arun Kochar | Director | A K Kochar & Associates</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>Broadway9-Automation was able to support us end to end from articulating functional specifications and
+                technical
+                design through application
+                delivery. We value the strong and positive relationship we have built with the Broadway9's team.</p>
+              <span>Navin | Director | Blab</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>Broadway9-Automation blend this great vision they have for creating an extraordinary company by
+                instilling a
+                deep sense of practicality and methodology to deliver applications and mobile apps on time and on
+                budget. </p>
+              <span>Jugal Shah | CEO | Leo9 Studio</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="brands-we-work gap">
+    <div class="container">
+      <h2 style="padding-bottom: 60px;">Our Clients</h2>
+      <div class="swiper-container brandswiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/jio.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/satyamev.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/o2.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/eesl.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/timex.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/apsfl.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/ericsson.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/pebble.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <section class="gap no-bottom video-section">
+    <div class="container">
+      <div class="heading-boder two">
+        <h2 style="margin-bottom: 10px;">Contact Us</h2>
+        <p>Ready to enhance connectivity and productivity with our networking solutions? <br> Contact us today to discuss
+          your project requirements and discover how we can help <br> you achieve your networking goals
+        </p>
+        <a href="#" class="themebtu">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+
   <footer class="gap no-bottom" style="background-color: #222 ;">
     <div class="container">
       <div class="row">
         <div class="col-xl-3 col-lg-4 col-md-6">
           <div class="footer-logo">
-            <a href="index.html"><img alt="img" src="assets/img/logo.png"></a>
+            <a href="index.html"><img alt="img" src="assets/img/broadway9.png" style="width: 200px;"></a>
             <p>
               Broadway9 Automation Pvt. Ltd.
               D/1 , Shakti Dham CHSL,
@@ -313,7 +663,8 @@
               <li><a href="fintech-solutions.html">Fintech Solutions</a></li>
               <li><a href="networking-solutions.html">Networking Solutions</a></li>
               <li><a href="aiml-solutions.html">AI/ML Solutions</a></li>
-              <!-- <li class="pb-0"><a href="contacts.html">Contact us</a></li> -->
+              <!-- <li><a href="blog-grid.html">News</a></li>
+              <li class="pb-0"><a href="contacts.html">Contact us</a></li> -->
             </ul>
           </div>
         </div>
@@ -322,30 +673,29 @@
             <h6>Links</h6>
             <ul>
               <li><a href="about.html">Who We Are</a></li>
-              <li><a href="contacts.html">Privacy Policy</a></li>
-              <li><a href="contacts.html">Contacts Us</a></li>
+              <li><a href="privacy-policy.html">Privacy Policy</a></li>
+              <li><a href="contacts.html">Contact Us</a></li>
             </ul>
           </div>
         </div>
         <div class="col-xl-3 col-lg-4 col-md-6">
           <div class="latest-news">
             <h6>Contact Us</h6>
-            <!-- <p>Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.</p> -->
             <form>
-              <input type="text" name="email" placeholder="your email address">
-              <button>go</button>
+              <div style="color: white;">
+                info@broadway9.com
+              </div>
             </form>
           </div>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>© 2024 Broadway9 Theme - All Rights Reserved | Design by upifix</p>
+        <p style="color: white;">© 2024 Broadway9-Automation - All Rights Reserved</p>
         <ul>
-          <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-          <li><a href="#"><i class="fa-solid fa-m"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          <li><a href="#/"><img src="./assets/img/meta.png" alt="meta"></a></li>
+          <li><a href="#/"><img src="./assets/img/twitter.png" alt="twitter"></a></li>
+          <li><a href="#/"><img src="./assets/img/youtube.png" alt="youtube"></a></li>
+          <li><a href="#/"><img src="./assets/img/linkedin.png" alt="linkedin"></a></li>
         </ul>
       </div>
     </div>
@@ -355,9 +705,12 @@
   <!-- Back to top button end -->
   <!-- jQuery -->
   <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <!-- Bootstrap Js -->
   <script src="assets/js/bootstrap.min.js"></script>
   <!-- fancybox -->
   <script src="assets/js/jquery.fancybox.min.js"></script>
+  <!-- swiper -->
+  <script src="assets/js/swiper.js"></script>
   <script src="assets/js/custom.js"></script>
 </body>

@@ -5,12 +5,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Broadway9-Automation - AI/ML Solutions</title>
-  <link rel="icon" href="assets/img/logo-icon.png">
+  <link rel="icon" href="assets/img/favicon.png">
 
   <!-- CSS only -->
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
   <!-- Font Awesome 6 -->
   <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+  <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="assets/css/swiper.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <!-- style -->
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- responsive -->
@@ -21,29 +24,29 @@
 
 <body>
   <!-- preloader start -->
-  <!-- <div class="preloader"> 
-      <div>
+  <!-- <div class="preloader">
+    <div>
       <div class="container">
-      <div class="squarebox one"></div>
-      <div class="squarebox two"></div>
-      <div class="squarebox three"></div>
-      <div class="squarebox two"></div>
-      <div class="squarebox three"></div>
-      <div class="squarebox four"></div>
-      <div class="squarebox three"></div>
-      <div class="squarebox four"></div>
-      <div class="squarebox five"></div>
+        <div class="squarebox one"></div>
+        <div class="squarebox two"></div>
+        <div class="squarebox three"></div>
+        <div class="squarebox two"></div>
+        <div class="squarebox three"></div>
+        <div class="squarebox four"></div>
+        <div class="squarebox three"></div>
+        <div class="squarebox four"></div>
+        <div class="squarebox five"></div>
       </div>
-      </div>
-    </div> -->
+    </div>
+  </div> -->
   <!-- preloader end -->
-  <header class="three" style="background-image: url(assets/img/header.jpg)">
+  <header>
     <div class="container">
       <div class="nav">
         <div class="d-flex align-items-center">
           <div class="logo">
             <a href="index.html">
-              <img alt="logo" src="assets/img/logo.png">
+              <img alt="logo" src="assets/img/broadway9.png" style="width: 120px;padding-top: 1rem;">
             </a>
           </div>
           <ul class="menu">
@@ -71,7 +74,7 @@
                 <li><a href="smartcity-solutions.html">Smart City Solutions</a></li>
                 <li><a href="fintech-solutions.html">Fintech Solutions</a></li>
                 <li><a href="networking-solutions.html">Networking Solutions</a></li>
-                <li><a href="aiml-solutions.html"></a>AI/ML Solutions</li>
+                <li><a href="aiml-solutions.html">AI/ML Solutions</a></li>
                 <!-- <li><a href="portfolio-single-v2.html">portfolio single v2</a></li> -->
               </ul>
             </li>
@@ -79,7 +82,7 @@
               <a href="#">Who We Serve</a>
               <ul class="sub-menu">
                 <li><a href="uiux.html">UI/UX</a></li>
-                <li><a href="software-development.html"></a>Software Development</li>
+                <li><a href="software-development.html">Software Development</a></li>
                 <li><a href="mobile-development.html">Mobile App Development</a></li>
                 <li><a href="digital-marketing.html">Digital Marketing</a></li>
               </ul>
@@ -89,7 +92,7 @@
             </li>
           </ul>
         </div>
-        <div>
+        <!-- <div>
           <form id="content">
             <input type="text" name="input" class="input" id="search-input">
             <button type="reset" class="search" id="search-btn"></button>
@@ -98,13 +101,13 @@
         </div>
         <div class="bar-menu">
           <i class="fa-solid fa-bars"></i>
-        </div>
+        </div> -->
       </div>
     </div>
     <div class="mobile-nav hmburger-menu" id="mobile-nav" style="display:block;">
       <div class="res-log">
         <a href="index.html">
-          <img src="assets/img/logo.png" alt="Responsive Logo">
+          <img src="assets/img/broadway9.png" alt="Responsive Logo">
         </a>
       </div>
       <ul>
@@ -113,17 +116,17 @@
           <ul class="sub-menu">
 
             <!-- <li><a href="index.html">homepage 1</a></li>
-              <li><a href="index-2.html">homepage 2</a></li>
-              <li><a href="index-3.html">homepage 3</a></li> -->
+            <li><a href="index-2.html">homepage 2</a></li>
+            <li><a href="index-3.html">homepage 3</a></li> -->
           </ul>
         </li>
         <li class="menu-item-has-children"><a href="JavaScript:void(0)">Who We Are</a>
           <ul class="sub-menu">
-            <!-- <li><a href="about.html">about</a></li>
-                <li><a href="team.html">team</a></li>
-                <li><a href="services.html">services</a></li>
-                <li><a href="pricing.html">pricing</a></li>
-                <li><a href="404error.html">404 error</a></li> -->
+            <!-- <li><a href="smartcity-solutions.html">about</a></li>
+            <li><a href="fintech-solutions.html">team</a></li>
+            <li><a href="networking-solutions.html">services</a></li>
+            <li><a href="ai/ml-solutions.html">pricing</a></li>
+            <li><a href="404error.html">404 error</a></li> -->
           </ul>
         </li>
 
@@ -158,162 +161,397 @@
       <a href="JavaScript:void(0)" id="res-cross"></a>
     </div>
   </header>
-  <section>
+  <!-- <section class="hero-section-one" style="background-image: url(https://via.placeholder.com/1920x982)"> -->
+  <div class="container">
+    <div class="heading-boder">
+      <h2><span
+          style="font-size: 80px; font-weight: 600; line-height: 80px;text-align: center; margin-bottom: 150px;">AI/ML</span>
+      </h2>
+    </div>
+  </div>
+  </section>
+
+  <section class="gap">
     <div class="container">
-      <div class="title-blog">
-        <h2>AI/ML</h2>
-        <!-- <a href="#">Portfolio Single</a> -->
-      </div>
       <div class="row">
-        <div class="col-xl-8">
-          <div class="blog-item hoverstyle">
-            <figure>
-              <img alt="img" class="w-100" src="https://via.placeholder.com/916x611">
-            </figure>
-            <p class="p-30">Unlocking the Power of Artificial Intelligence and
-              Machine Learning
-              Welcome to our AI/ML Services page. In today's data-driven world, harnessing the power of artificial
+        <div class="col-lg-6">
+          <div class="graph">
+            <img alt="img" src="assets/img/ai.jpg">
+          </div>
+        </div>
+        <div class="col-lg-6 p-sm-0">
+          <div class="marketing">
+            <h4>
+              Unlocking the Power of Artificial Intelligence and <br>Machine Learning
+            </h4>
+            <p>Welcome to our AI/ML Services page. In today's data-driven world, harnessing the power of artificial
               intelligence (AI) and machine learning (ML) can revolutionize businesses, driving innovation, efficiency,
-              and competitive advantage. At Harry & Liu, we specialize in providing cutting-edge AI/ML solutions
+              and competitive advantage. At Broadway9-Automation, we specialize in providing cutting-edge AI/ML
+              solutions
               tailored to your unique needs and objectives.</p>
           </div>
-          <div class="row align-items-center">
-            <div class="col-lg-6">
-              <div class="portfolimg hoverstyle">
-                <figure>
-                  <img alt="img" class="w-100" src="https://via.placeholder.com/446x396">
-                </figure>
-                <span>Data-Driven Insights
-                  <br><br>
-                  <p>AI/ML algorithms analyze vast amounts of data to uncover valuable insights and patterns, enabling
-                    informed decision-making and strategic planning.</p>
-                </span>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="portfolimg hoverstyle">
-                <figure>
-                  <img alt="img" class="w-100" src="https://via.placeholder.com/446x396">
-                </figure>
-                <span>Automation & Efficiency</span>
-              </div>
-            </div>
-          </div>
-          <p class="p-30">AI/ML technologies automate repetitive tasks and processes, reducing manual effort and
-            improving operational efficiency across various business functions.</p>
-        </div>
-        <div class="col-xl-4 pl-60">
-          <ul class="sidebar">
-            <li>
-              <h4>Personalization</h4>
-              <p>AI/ML enables personalized experiences for users, customers, and stakeholders, delivering tailored
-                recommendations, content, and services based on individual preferences and behaviors.</p>
-            </li>
-            <li>
-              <h4>Predictive Analytics</h4>
-              <span>AI/ML models forecast future trends, behaviors, and outcomes, empowering businesses to anticipate
-                customer needs, mitigate risks, and capitalize on opportunities in real time.</span>
-            </li>
-            <li>
-              <h4>Innovation & Growth</h4>
-              <span>By embracing AI/ML, businesses can drive innovation, develop new products and services, and stay
-                ahead of the competition in rapidly evolving markets.</span>
-            </li>
-            <li>
-              <h4>Predictive Analytics</h4>
-              <a href="#"><span>Harness the power of predictive modeling and forecasting to anticipate trends, identify
-                  opportunities, and mitigate risks across various industries and applications.</span>,</a>
-              <a href="#"><span>Natural Language Processing</span></a>
-              <a href="#"><span>Unlock the potential of NLP to analyze and understand human language, enabling chatbots,
-                  sentiment analysis, language translation, and more.</span></a>
-            </li>
-            <li>
-              <h4>Share post :</h4>
-              <ul class="brandicon">
-                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#" class="themebtu">Launch Site</a>
-            </li>
-          </ul>
         </div>
       </div>
     </div>
   </section>
-  <section class="gap blog-recent-posts">
+
+  <div class="brands-we-work gap">
     <div class="container">
-      <h4 class="mb-5">Our Other Projects</h4>
+      <h2 style="padding-bottom: 60px;">Strategic Partners</h2>
+      <div class="swiper-container brandswiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/image-1.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/image-2.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/image-3.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/image-4.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/image-5.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/image-6.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/image-7.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="we-deliver-results gap" style="background-color: #f0f5ff;">
+    <div class="container">
       <div class="row">
-        <div class="col-xl-3 col-lg-4 col-md-6">
-          <div class="portfolios-three hoverstyle">
-            <figure>
-              <img alt="portfolios img" class="w-100" src="https://via.placeholder.com/329x329">
-            </figure>
-            <div class="portfolios-data">
-              <a href="#">
-                <h4>Computer Vision</h4>
-              </a>
-              <a href="#">Leverage computer vision technologies to analyze and interpret visual data, enabling
-                applications such as image recognition, object detection, and autonomous vehicles.</a>
-            </div>
+        <div class="col-xl-4 col-lg-6">
+          <h2 style="color: #222; padding-top: 140px;">Why AI/ML Matters</h2>
+        </div>
+        <div class="col-xl-4 col-lg-6">
+          <div class="makes-us-different-text">
+            <h4>Data Driven Insights</h4>
+            <p>
+              AI/ML algorithms analyze vast amounts of data to uncover valuable insights and patterns, enabling informed
+              decision-making and strategic planning.
+            </p>
           </div>
         </div>
-        <div class="col-xl-3 col-lg-4 col-md-6">
-          <div class="portfolios-three hoverstyle">
-            <figure>
-              <img alt="portfolios img" class="w-100" src="https://via.placeholder.com/329x329">
-            </figure>
-            <div class="portfolios-data">
-              <a href="#">
-                <h4>Recommendation Systems</h4>
-              </a>
-              <a href="#">Develop recommendation engines that deliver personalized recommendations to users, enhancing
-                user experience and driving engagement and conversions.</a>
-            </div>
+        <div class="col-xl-4 col-lg-6">
+          <div class="makes-us-different-text">
+            <h4>Automation & Efficiency</h4>
+            <p>
+              AI/ML technologies automate repetitive tasks and processes, reducing manual effort and improving
+              operational efficiency across various business functions.
+            </p>
           </div>
         </div>
-        <div class="col-xl-3 col-lg-4 col-md-6">
-          <div class="portfolios-three hoverstyle">
-            <figure>
-              <img alt="portfolios img" class="w-100" src="https://via.placeholder.com/329x329">
-            </figure>
-            <div class="portfolios-data">
-              <a href="#">
-                <h4>Anomaly Detection</h4>
-              </a>
-              <a href="#">Detect anomalies and outliers in data streams to identify potential threats, fraud, or
-                performance issues, enabling proactive intervention and risk mitigation.</a>
-            </div>
+        <div class="col-xl-4 col-lg-6">
+          <div class="makes-us-different-text">
+            <h4>Personalization</h4>
+            <p>
+              AI/ML enables personalized experiences for users, customers, and stakeholders, delivering tailored
+              recommendations, content, and services based on individual preferences and behaviors.
+            </p>
           </div>
         </div>
-        <div class="col-xl-3 col-lg-4 col-md-6">
-          <div class="portfolios-three hoverstyle">
-            <figure>
-              <img alt="portfolios img" class="w-100" src="https://via.placeholder.com/329x329">
-            </figure>
-            <div class="portfolios-data">
-              <a href="#">
-                <h4>Contact Shah</h4>
-              </a>
-              <a href="#">Ready to harness the power of AI/ML to drive innovation and growth for your business? Contact
-                us today to discuss your project requirements and discover how our AI/ML services can help you achieve
-                your goals.</a>
+        <div class="col-xl-4 col-lg-6">
+          <div class="makes-us-different-text">
+            <h4>Predictive Analysis</h4>
+            <p>
+              AI/ML models forecast future trends, behaviors, and outcomes, empowering businesses to anticipate customer
+              needs, mitigate risks, and capitalize on opportunities in real time.
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6">
+          <div class="makes-us-different-text">
+            <h4>Innovation & Growth</h4>
+            <p>
+              By embracing AI/ML, businesses can drive innovation, develop new products and services, and stay ahead of
+              the competition in rapidly evolving markets.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gap no-top">
+    <div class="container">
+      <h2
+        style="font-size: 80px; font-weight: 600; line-height: 80px;text-align: center; margin-bottom: 150px;margin-top: 100px;">
+        Our
+        Solutions</h2>
+      <div class="row align-items-center">
+        <div class="col-lg-6 ">
+          <div class="heading">
+            <h3 style="margin-bottom: 35px;">Predictive Analysis</h3>
+          </div>
+          <div class="marketing two">
+            <p class="pt-3">Our range of payment devices includes POS terminals, swipe machines, NFC chip reader
+              machines, and soon-to-be-launched NFC-enabled smartwatches for tap-to-pay solutions.</p>
+          </div>
+        </div>
+        <div class="offset-xl-1 col-lg-5">
+          <div class="graph">
+            <img alt="img" src="assets/img/female.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="gap">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="graph">
+            <img alt="img" src="assets/img/papercut.jpg">
+          </div>
+        </div>
+        <div class="col-lg-6 p-sm-0">
+          <div class="heading">
+            <h6 style="color: #222; padding-top: 50px;padding-bottom: 20px;">Natural Language Processing</h6>
+            <p>Unlock the potential of NLP to analyze and understand human language, enabling chatbots, sentiment
+              analysis, language translation, and more.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gap no-top">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 ">
+          <div class="heading">
+            <h3 style="margin-bottom: 35px;">Computer Vision</h3>
+          </div>
+          <div class="marketing two">
+            <p class="pt-3">Leverage computer vision technologies to analyze and interpret visual data, enabling
+              applications such as image recognition, object detection, and autonomous vehicles.</p>
+          </div>
+        </div>
+        <div class="offset-xl-1 col-lg-5">
+          <div class="graph">
+            <img alt="img" src="assets/img/3d.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="gap">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="graph">
+            <img alt="img" src="assets/img/startup.jpg">
+          </div>
+        </div>
+        <div class="col-lg-6 p-sm-0">
+          <div class="heading">
+            <h6 style="color: #222; padding-top: 50px;padding-bottom: 20px;">Recommendation Systems</h6>
+            <p>Develop recommendation engines that deliver personalized recommendations to users, enhancing user
+              experience and driving engagement and conversions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gap no-top">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 ">
+          <div class="heading">
+            <h3 style="margin-bottom: 35px;">Anomaly Detection</h3>
+          </div>
+          <div class="marketing two">
+            <p class="pt-3">Detect anomalies and outliers in data streams to identify potential threats, fraud, or
+              performance issues, enabling proactive intervention and risk mitigation.</p>
+          </div>
+        </div>
+        <div class="offset-xl-1 col-lg-5">
+          <div class="graph">
+            <img alt="img" src="assets/img/desk.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="blog-posts gap no-top">
+    <div class="container">
+      <div class="heading-boder two">
+        <h2>What Our Clients Say!</h2>
+      </div>
+      <div class="swiper-partner partnerswiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>Managing the cricket tournament wouldn’t be possible if we had not used Procric8 designed and developed
+                by Broadway9-Automation. I’m very excited to say that all 200+ Players were happy with LIVE SCORE
+                updates on the
+                ground as well as on App during matches. </p>
+              <span>Jiten Oza | Proprietor | Compact Business Machines</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>Broadway9-Automation executes the design of a product exactly the way it is provided, or suggest ways
+                to improve
+                navigation, usability; to make our lives easier. It is a pleasure to work with and I highly recommend
+                the company to those who want a job done the way they envision it. </p>
+              <span>Jay Majithia | Prorpietor | Niramay Briodant</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>One word “Kaizen”. A popular concept of the Japanese “Kaizen” which means continuous self improvement.
+                Can be seen here in Broadway9-Automation ideas, solutions, methodologies, and practices followed by
+                them. I
+                extend my gratitude to broadway9's team for their support. </p>
+              <span>Krishna Majithia | Managing Director | City Group</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>Broadway9-Automation does the exact same thing with technologies. It knows how to gather the customer
+                requirements and carve the imagination in a valuable product. Their customised software helped us in our
+                marketing campaigns to our consumers. </p>
+              <span>Milind Trivedi | Creative Production Head | Grace Communication</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>Broadway9-Automation have blown me away when it
+                comes to application development and deployment,<br> providing unbelievable account management,
+                great agility and serious innovation. </p>
+              <span>Nalin Shah | Director | India Latina PCI</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>Our project was executed elegantly with a high degree of professionalism and technical expertise. We
+                would be happy to work with Broadway9-Automation again and we hope the opportunity presents itself. </p>
+              <span>Arun Kochar | Director | A K Kochar & Associates</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>Broadway9-Automation was able to support us end to end from articulating functional specifications and
+                technical
+                design through application
+                delivery. We value the strong and positive relationship we have built with the Broadway9's team.</p>
+              <span>Navin | Director | Blab</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts-text">
+              <p>Broadway9-Automation blend this great vision they have for creating an extraordinary company by
+                instilling a
+                deep sense of practicality and methodology to deliver applications and mobile apps on time and on
+                budget. </p>
+              <span>Jugal Shah | CEO | Leo9 Studio</span>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  <div class="brands-we-work gap">
+    <div class="container">
+      <h2 style="padding-bottom: 60px;">Our Clients</h2>
+      <div class="swiper-container brandswiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/jio.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/satyamev.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/o2.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/eesl.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/timex.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/apsfl.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/ericsson.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="brand-img">
+              <img alt="img" src="./assets/img/pebble.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="gap no-bottom video-section">
+    <div class="container">
+      <div class="heading-boder two">
+        <h2 style="margin-bottom: 10px;">Contact Us</h2>
+        <p>Ready to harness the power of AI/ML to drive innovation and growth for your business? <br> Contact us today to
+          discuss your project requirements and discover <br> how our AI/ML services can help you achieve your goals.
+        </p>
+        <a href="#" class="themebtu">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+
   <footer class="gap no-bottom" style="background-color: #222 ;">
     <div class="container">
       <div class="row">
         <div class="col-xl-3 col-lg-4 col-md-6">
           <div class="footer-logo">
-            <a href="index.html"><img alt="img" src="assets/img/logo.png"></a>
+            <a href="index.html"><img alt="img" src="assets/img/broadway9.png" style="width: 200px;"></a>
             <p>
               Broadway9 Automation Pvt. Ltd.
               D/1 , Shakti Dham CHSL,
@@ -330,7 +568,8 @@
               <li><a href="fintech-solutions.html">Fintech Solutions</a></li>
               <li><a href="networking-solutions.html">Networking Solutions</a></li>
               <li><a href="aiml-solutions.html">AI/ML Solutions</a></li>
-              <!-- <li class="pb-0"><a href="contacts.html">Contact us</a></li> -->
+              <!-- <li><a href="blog-grid.html">News</a></li>
+              <li class="pb-0"><a href="contacts.html">Contact us</a></li> -->
             </ul>
           </div>
         </div>
@@ -339,7 +578,7 @@
             <h6>Links</h6>
             <ul>
               <li><a href="about.html">Who We Are</a></li>
-              <li><a href="contacts.html">Privacy Policy</a></li>
+              <li><a href="privacy-policy.html">Privacy Policy</a></li>
               <li><a href="contacts.html">Contact Us</a></li>
             </ul>
           </div>
@@ -347,22 +586,21 @@
         <div class="col-xl-3 col-lg-4 col-md-6">
           <div class="latest-news">
             <h6>Contact Us</h6>
-            <!-- <p>Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.</p> -->
             <form>
-              <input type="text" name="email" placeholder="your email address">
-              <button>go</button>
+              <div style="color: white;">
+                info@broadway9.com
+              </div>
             </form>
           </div>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>© 2024 Broadway9 Theme - All Rights Reserved | Design by upifix</p>
+        <p style="color: white;">© 2024 Broadway9-Automation - All Rights Reserved</p>
         <ul>
-          <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-          <li><a href="#"><i class="fa-solid fa-m"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          <li><a href="#/"><img src="./assets/img/meta.png" alt="meta"></a></li>
+          <li><a href="#/"><img src="./assets/img/twitter.png" alt="twitter"></a></li>
+          <li><a href="#/"><img src="./assets/img/youtube.png" alt="youtube"></a></li>
+          <li><a href="#/"><img src="./assets/img/linkedin.png" alt="linkedin"></a></li>
         </ul>
       </div>
     </div>
@@ -372,7 +610,12 @@
   <!-- Back to top button end -->
   <!-- jQuery -->
   <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <!-- Bootstrap Js -->
   <script src="assets/js/bootstrap.min.js"></script>
+  <!-- fancybox -->
+  <script src="assets/js/jquery.fancybox.min.js"></script>
+  <!-- swiper -->
+  <script src="assets/js/swiper.js"></script>
   <script src="assets/js/custom.js"></script>
 </body>
