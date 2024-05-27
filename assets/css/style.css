@@ -75,7 +75,6 @@
 
 body {
     overflow-x: hidden !important;
-    font-family: 'Inter';
 }
 
 p {
@@ -89,6 +88,7 @@ p {
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 a,
@@ -366,11 +366,11 @@ header {
 .why-choose-us-section {
     background-color: #fff;
     color: black;
-    padding: 40px 0;
+    padding: 0px 0;
 }
 
 .why-choose-us-section h2 {
-    font-size: 36px;
+    font-size: 33px;
     font-weight: 600;
     line-height: 48px;
     text-align: center;
@@ -405,13 +405,13 @@ header {
 
 .card h3 {
     margin-top: 0;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 48px;
 }
 
 .card p {
-    margin: 16px 0;
+    margin: 13px 7px;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -598,13 +598,15 @@ img.dots {
 
 .swiper-partner {
     width: 60%;
-    height: 100%;
+    /* height: 100%; */
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    text-align: center;
+    text-align: left;
     border: 1px solid black;
     overflow: hidden;
+    display: flex;
+    justify-content: space-between;
 }
 
 .swiper-container {
@@ -927,7 +929,10 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 
 .heading-boder span {
-    position: relative;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 80px;
+    text-align: center;
     padding-left: 10px;
     z-index: 111;
 }
@@ -951,7 +956,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
     /* background-image: url(../img/text-line.png); */
     height: 19%;
     background-repeat: no-repeat;
-    width: 100%;
+    /* width: 100%; */
     top: 93%;
 }
 
@@ -1727,7 +1732,8 @@ form.touch .btugap {
 }
 
 section.blog-posts .heading-boder.two h2 {
-    padding-bottom: 65px;
+    padding-bottom: 50px;
+    padding-top: 0px;
 }
 
 .awesome-project {
@@ -2303,7 +2309,7 @@ ul.sidebar .brandicon {
     background-position: center;
     background-size: cover;
     padding-top: 180px;
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
 }
 
 .splash-area h2 {
@@ -2323,7 +2329,7 @@ ul.sidebar .brandicon {
 .graph img {
     width: 75%;
     height: 100%;
-    margin-left: 80px;
+    margin-left: 30px;
 }
 
 
@@ -3061,7 +3067,7 @@ header .square {
 .mobile-nav {
     position: fixed;
     top: 0;
-    left: 0;
+    left: 0px;
     width: 30%;
     height: 100%;
     background-color: #222;
@@ -3070,10 +3076,9 @@ header .square {
     transition: 0.45s ease-in-out;
     transform: translateX(-101%);
     -webkit-transform: translateX(-101%);
-    -moz-transform: translateX(-101%);
-    -o-transform: translateX(-101%);
-    overflow-y: auto;
+    overflow-x: auto;
 }
+
 
 .mobile-nav ul li a svg {
     width: 11px;
@@ -3100,7 +3105,7 @@ header .square {
 }
 
 .responsive-bar {
-    display: none;
+    display: block;
 }
 
 #nav-icon4 span:nth-child(3) {
@@ -3320,7 +3325,6 @@ i#nav-icon4 {
     z-index: 33333333;
     box-shadow: 3px 3px 39px -4px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 3px 3px 39px -4px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 3px 3px 39px -4px rgba(0, 0, 0, 0.75);
 }
 
 li.menu-item-has-children.active {
@@ -3339,7 +3343,7 @@ li.menu-item-has-children.active {
 }
 
 .bar-menu i {
-    color: white;
+    color: black;
     font-size: 24px;
 }
 
@@ -3493,4 +3497,26 @@ header.two .menu a,
 .discovery-text.two h4,
 .mobile-nav>ul li>a {
     transition: .3s ease-in-out;
+}
+
+@media screen and (min-width: 360) and (max-width: 767) {
+    body{
+        overflow: hidden;
+    }
+    .mobile-nav {
+        position: fixed;
+        top: 0;
+        left: 294px !important;
+        width: 30%;
+        height: 100%;
+        background-color: #222;
+        padding: 50px 40px 15px;
+        z-index: 5;
+        transition: 0.45s ease-in-out;
+        transform: translateX(-101%);
+        -webkit-transform: translateX(-101%);
+        -moz-transform: translateX(-101%);
+        -o-transform: translateX(-101%);
+        overflow-y: auto;
+    }
 }
