@@ -405,13 +405,13 @@ header {
 
 .card h3 {
     margin-top: 0;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     line-height: 48px;
 }
 
 .card p {
-    margin: 13px 7px;
+    margin: 4px 6px;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -2878,7 +2878,8 @@ section.gap.blog-recent-posts .latest-blog-post {
 
 .we-deliver-results .makes-us-different-text {
     margin-top: 30px;
-    background-color: #f0f5ff;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 /* 51. awards */
@@ -3499,7 +3500,7 @@ header.two .menu a,
     transition: .3s ease-in-out;
 }
 
-@media screen and (min-width: 360) and (max-width: 767) {
+/* @media screen and (min-width: 360) and (max-width: 767) {
     body{
         overflow: hidden;
     }
@@ -3519,4 +3520,4 @@ header.two .menu a,
         -o-transform: translateX(-101%);
         overflow-y: auto;
     }
-}
+} */

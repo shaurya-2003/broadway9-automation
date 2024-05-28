@@ -147,7 +147,7 @@
 	}
 
 	.heading-boder span {
-		font-size: 34px;
+		font-size: 27px;
 		font-weight: 600;
 		line-height: 80px;
 		text-align: center;
@@ -197,7 +197,7 @@
 	}
 
 	.heading-boder p {
-		font-size: 16px;
+		font-size: 13px;
 	}
 
 	.pl-80 {
@@ -344,7 +344,7 @@
 	.sercive-style-text a,
 	.case-studies-project p {
 		font-size: 14px;
-		line-height: 24px;
+		line-height: 20px;
 	}
 
 	.team-section {
@@ -798,7 +798,11 @@
 	}
 
 	.heading-boder h2 {
-		width: 70%;
+		font-size: 41px;
+		font-weight: 600;
+		line-height: 80px;
+		text-align: center;
+		/* margin-bottom: 100px; */
 	}
 
 	.pl-75 {
@@ -902,7 +906,7 @@
 	}
 
 	.gap {
-		padding: 80px 35px;
+		padding: 80px 19px;
 	}
 
 	.no-top {
@@ -948,7 +952,11 @@
 	}
 
 	.heading-boder h2 {
-		width: 100%;
+		font-size: 41px;
+		font-weight: 600;
+		line-height: 80px;
+		text-align: center;
+		/* margin-bottom: 100px; */
 	}
 
 	.get-in-touch {
@@ -1060,7 +1068,7 @@
 	}
 
 	.swiper-partner {
-		width: 336px;
+		width: 300px;
 		/* height: 100%; */
 		margin-left: auto;
 		margin-right: auto;
@@ -1296,7 +1304,12 @@
 	}
 }
 
-@media(max-width: 375px) {
+@media(max-width: 360px) {
+	.row>* {
+		padding-right: calc(var(--bs-gutter-x)* .5);
+		padding-left: calc(var(--bs-gutter-x)* .5);
+	}
+
 	.testimonials i {
 		left: 4%;
 		top: 34%;
