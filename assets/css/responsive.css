@@ -864,6 +864,13 @@
 		line-height: 46px;
 	}
 
+	.card h3 {
+		margin-top: 0;
+		font-size: 15px;
+		font-weight: 600;
+		line-height: 48px;
+	}
+
 	.splash-area a {
 		font-size: 18px;
 	}
