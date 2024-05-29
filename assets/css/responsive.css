@@ -5,12 +5,41 @@
 }
 
 @media(max-width: 1650px) {
+
+	.footer-logo img,
+	.links h6,
+	.latest-news h6 {
+		padding-bottom: 40px;
+		padding-top: 20px;
+	}
+
 	.hero-section-three .heading-boder {
 		padding-left: 0px;
 	}
 }
 
 @media(max-width: 1400px) {
+
+	.card h3 {
+		margin-top: 0;
+		font-size: 22px;
+		font-weight: 600;
+		line-height: 48px;
+	}
+
+	.why-choose-us-section h2 {
+		font-size: 65px;
+		font-weight: 600;
+		line-height: 48px;
+		text-align: center;
+		margin-bottom: 70px;
+		color: #904B28;
+	}
+
+	.col-md-6 {
+		width: 50%;
+	}
+
 	header #content {
 		top: 50%;
 		left: 70%;
@@ -142,12 +171,12 @@
 		width: 100%;
 	}
 
-	.graph img {
+	/* .graph img {
 		width: 100%;
-	}
+	} */
 
 	.heading-boder span {
-		font-size: 27px;
+		font-size: 80px;
 		font-weight: 600;
 		line-height: 80px;
 		text-align: center;
@@ -161,6 +190,7 @@
 		text-align: center;
 		position: relative;
 		padding-top: 0px;
+
 	}
 
 	.hero-section-one .heading-boder span:before {
@@ -183,7 +213,7 @@
 	}
 
 	h6 {
-		font-size: 18px;
+		font-size: 26px;
 		line-height: 28px;
 	}
 
@@ -197,7 +227,8 @@
 	}
 
 	.heading-boder p {
-		font-size: 13px;
+		font-size: 25px;
+		padding-top: 30px;
 	}
 
 	.pl-80 {
@@ -223,7 +254,7 @@
 	}
 
 	.welcome-text p {
-		padding-bottom: 30px;
+		padding-bottom: 20px;
 	}
 
 	.latest-news form input {
@@ -248,8 +279,8 @@
 	}
 
 	h2 {
-		font-size: 32px;
-		line-height: 42px;
+		margin-top: 0%;
+		font-size: 44px;
 	}
 
 	.strategic-sercives h2 {
@@ -268,9 +299,9 @@
 	.blog-posts-text {
 		padding: 30px;
 		display: flex;
-		height: 296px;
+		height: 165px;
 		flex-direction: column;
-		justify-content: space-between;
+		/* justify-content: space-between; */
 	}
 
 	.successful h3 {
@@ -343,8 +374,22 @@
 	.strategic-sercives p,
 	.sercive-style-text a,
 	.case-studies-project p {
-		font-size: 14px;
+		font-size: 15px;
 		line-height: 20px;
+	}
+
+	.graph img {
+		width: 100%;
+		padding-top: 90px;
+		margin-left: 30px;
+	}
+
+	.marketing h4 {
+		padding-top: 85px;
+		padding-bottom: 30px;
+		font-size: 29px;
+		line-height: 37px;
+		margin-bottom: 0;
 	}
 
 	.team-section {
@@ -395,6 +440,15 @@
 }
 
 @media(max-width: 1200px) {
+	.heading-boder span {
+		font-size: 27px;
+		font-weight: 600;
+		line-height: 80px;
+		text-align: center;
+		/* padding-left: 20px; */
+		z-index: 111;
+	}
+
 	.hero-section-one .heading-boder span:before {
 		width: 25%;
 		height: 100%;
@@ -594,8 +648,8 @@
 	}
 
 	.graph img {
-		width: 100%;
-		margin-bottom: 40px;
+		/* width: 100%; */
+		margin-bottom: 85px;
 	}
 
 	.successful {
@@ -641,9 +695,9 @@
 		padding-bottom: 40px;
 	}
 
-	.welcome-text {
+	/* .welcome-text {
 		margin-bottom: 60px;
-	}
+	} */
 
 	section.how-it-works.gap.no-top {
 		margin-top: 60px;
@@ -662,6 +716,9 @@
 }
 
 @media(max-width: 993px) {
+
+
+
 	.hero-section-one .heading-boder span:before {
 		width: 35%;
 	}
@@ -803,6 +860,7 @@
 		line-height: 80px;
 		text-align: center;
 		/* margin-bottom: 100px; */
+		margin-bottom: 0%;
 	}
 
 	.pl-75 {
@@ -913,7 +971,7 @@
 	}
 
 	.gap {
-		padding: 80px 10px;
+		padding: 50px 10px;
 	}
 
 	.no-top {
@@ -1289,9 +1347,9 @@
 		width: 36%;
 	}
 
-	.heading-boder span {
+	/* .heading-boder span {
 		margin-bottom: 10px;
-	}
+	} */
 
 	.title-blog h2 {
 		font-size: 30px;

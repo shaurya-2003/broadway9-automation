@@ -379,7 +379,7 @@ header {
 }
 
 .card {
-    margin-bottom: 20px;
+    margin-bottom: -25px;
     background: transparent;
     border: 1px solid transparent;
     /* width: 600px; */
@@ -400,12 +400,12 @@ header {
 }
 
 .card-body {
-    padding: 20px;
+    padding: 10px;
 }
 
 .card h3 {
     margin-top: 0;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     line-height: 48px;
 }
@@ -758,6 +758,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 .links h6,
 .latest-news h6 {
     padding-bottom: 40px;
+    padding-top: 20px;
 }
 
 .links ul li a {
@@ -920,7 +921,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 
 .heading-boder h2 {
     font-size: 70px;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
     line-height: 80px;
     font-weight: 600;
     padding-top: 150px;
@@ -2327,8 +2328,8 @@ ul.sidebar .brandicon {
 }
 
 .graph img {
-    width: 75%;
-    height: 100%;
+    width: 60%;
+    padding-top: 90px;
     margin-left: 30px;
 }
 
