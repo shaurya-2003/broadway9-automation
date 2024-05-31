@@ -75,6 +75,7 @@
 
 body {
     overflow-x: hidden !important;
+    /* font-family: Inter; */
 }
 
 p {
@@ -364,13 +365,13 @@ header {
 
 /* 4. small-services */
 .why-choose-us-section {
-    background-color: #fff;
+    /* background-color: #004E9E1A; */
     color: black;
-    padding: 0px 0;
+    padding: 40px 0;
 }
 
 .why-choose-us-section h2 {
-    font-size: 33px;
+    font-size: 36px;
     font-weight: 600;
     line-height: 48px;
     text-align: center;
@@ -379,7 +380,7 @@ header {
 }
 
 .card {
-    margin-bottom: -25px;
+    margin-bottom: 20px;
     background: transparent;
     border: 1px solid transparent;
     /* width: 600px; */
@@ -400,18 +401,18 @@ header {
 }
 
 .card-body {
-    padding: 10px;
+    padding: 20px;
 }
 
 .card h3 {
     margin-top: 0;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 600;
     line-height: 48px;
 }
 
 .card p {
-    margin: 4px 6px;
+    margin: 16px 0;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -424,6 +425,7 @@ header {
     color: black;
     border: 1px solid black;
 }
+
 
 /* 5. welcome */
 .welcome img.img-welcome {
@@ -2328,7 +2330,7 @@ ul.sidebar .brandicon {
 }
 
 .graph img {
-    width: 60%;
+    width: 100%;
     padding-top: 90px;
     margin-left: 30px;
 }
