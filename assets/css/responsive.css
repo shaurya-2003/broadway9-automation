@@ -1876,52 +1876,58 @@
 	}
 }
 
-@media (max-width: 360px){
+@media (max-width: 360px) {
 	.graph img {
 		width: 100%;
 		padding-top: 0px;
 		margin-left: 30px;
 	}
+
 	.heading-boder span {
-        font-size: 27px;
-        font-weight: 600;
-        line-height: 80px;
-        text-align: center;
-        /* padding-left: 20px; */
-        z-index: 111;
-    }
-	.heading-boder p {
-        font-size: 10px;
-        padding-top: 0px;
-    }
-    h2 {
-        font-size: 25px;
-        line-height: 38px;
-        font-weight: 600;
-        text-align: center;
-        padding-top: 30px;
+		font-size: 26px;
+		font-weight: 600;
+		line-height: 80px;
+		text-align: center;
+		/* padding-left: 20px; */
+		z-index: 111;
 	}
+
+	.heading-boder p {
+		font-size: 10px;
+		padding-top: 0px;
+	}
+
+	h2 {
+		font-size: 25px;
+		line-height: 38px;
+		font-weight: 600;
+		text-align: center;
+		padding-top: 30px;
+	}
+
 	.card h3 {
-        margin-top: 0;
-        font-size: 16px;
-        font-weight: 600;
-        line-height: 24px;
-        position: absolute;
-        top: 12px;
-        width: 200px;
-        left: 100px;
-    }
+		margin-top: 0;
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 24px;
+		position: absolute;
+		top: 12px;
+		width: 200px;
+		left: 100px;
+	}
+
 	.card p {
-        margin: 16px 0;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 18px;
-        width: 220px;
-        height: 90px;
-        position: absolute;
-        top: 27px;
-        left: 100px;
-    }
+		margin: 16px 0;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 18px;
+		width: 220px;
+		height: 90px;
+		position: absolute;
+		top: 27px;
+		left: 100px;
+	}
+
 	.row {
 		--bs-gutter-x: 1.5rem;
 		--bs-gutter-y: 0;
@@ -1931,8 +1937,10 @@
 		margin-right: calc(-.5* var(--bs-gutter-x));
 		margin-left: calc(-.5* var(--bs-gutter-x));
 	}
+
 	.heading-boder h2 {
-        font-size: 19px;
-        line-height: 40px;
-    }
+		font-size: 19px;
+		line-height: 40px;
+	}
 }
+
